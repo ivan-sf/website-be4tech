@@ -1,0 +1,62 @@
+
+/* ESFERA*/
+.animation-wrapper {
+    position: absolute;
+    right: 180px;
+    bottom: 220px;
+    z-index: 2000;
+  }
+  
+  .sphere-animation {
+    width: 300px;
+    height: 300px;
+  }
+  
+  .sphere path {
+    fill: url(#sphereGradient);
+    stroke-width: 1px;
+    stroke: rgba(57, 101, 197, 0.35);
+    backface-visibility: hidden;
+  }
+  
+  @media (min-width: 500px) {
+    .sphere path {
+      stroke-width: .4px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .animation-wrapper {
+    right: 130px;
+    bottom: 210px;
+  }
+  
+  .sphere-animation {
+    width: 250px;
+    height: 250px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .animation-wrapper {
+    right: 125px;
+    bottom: 170px;
+  }
+  
+  .sphere-animation {
+    width: 200px;
+    height: 200px;
+  }
+}
+
+@media only screen and (max-width: 425px) {
+  .animation-wrapper {
+    right: 35vw;
+    bottom: 20vh;
+  }
+  
+  .sphere-animation {
+    width: 100px;
+    height: 100px;
+  }
+}

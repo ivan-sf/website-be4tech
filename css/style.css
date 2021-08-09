@@ -1,0 +1,148 @@
+/*******************************General Settings*******************************/
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+body {
+  background-color: #201d43;
+  align-items: center;
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  overflow-x: hidden;
+}
+/*******************************Preloader*******************************/
+.preloader{
+  height: 110vh;
+  width: 100vw;
+  background: #0f0c29;  
+  background: -webkit-linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 100000;
+}
+.hidden-overflow{
+  overflow: hidden;
+}
+.hidden{
+  opacity: 0;
+}
+/*******************************Header******************************/
+header{
+  background-color: rgba(255, 255, 255, 1);
+  width: 10vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content:space-between;
+  z-index: 1000;
+  position: fixed;
+  left: 0;
+}
+.logo-header{
+  padding-top: 20px;
+  width: 100px;
+  cursor: pointer;
+}
+.menu-header{
+  width: 28px;
+  padding-bottom: 50vh;
+  cursor: pointer;
+}
+
+/********************************Banner*******************************/
+.banner {
+  background: #0f0c29; 
+  background: -webkit-linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+.box-logo-banner{
+  width: 45vw;
+  /* border: 3px solid black; */
+  margin-left: 10vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.box-img-banner{
+  width: 45vw;
+  /* border: 3px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 120px;
+}
+.human-banner{
+  height: 45vh;
+  margin-bottom: -20vh;
+  z-index: 1;
+}
+
+
+/******************************Media Queries****************************/
+@media only screen and (max-width: 620px) {
+  .banner{
+    flex-direction: column;
+  }
+  header{
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction:row;
+    z-index: 2000;
+    position: fixed;
+  }
+  
+  .logo-header{
+    width: 80px;
+    cursor: pointer;
+    position: absolute;
+    left: 10px;
+  }
+
+  .menu-header{
+    width: 20px;
+    padding-bottom: 0;
+    position: absolute;
+    right: 20px;
+  }
+
+  .box-logo-banner{
+    width: 100vw;
+    height: 40vh;
+    /* border: 1px solid red; */
+    margin-left: 0;
+    margin-top: 10vh;
+  }
+  .box-img-banner{
+    margin: 0;
+    padding: 20px;
+    width: 100vw;
+    height: 50vh;
+    margin-bottom: -10000vh;
+    /* border: 1px solid black; */
+  } 
+  .logo-banner{
+    width: 40vw;
+  }
+  .img-banner{
+    width: 70vw;
+    margin-bottom: 5vh;
+    padding-bottom: -20px;
+  }
+  .human-banner{
+    margin-bottom: -10vh;
+    height: 35vh;
+  }
+}
