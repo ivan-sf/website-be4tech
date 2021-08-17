@@ -70,12 +70,12 @@ header{
 
 .banner h1{
   color: #e5e5e5;
-  font-size: 30pt;
+  font-size: 40pt;
   font-weight: 500;
 }
 .banner p{
   color: #e5e5e5;
-  font-size: 15pt;
+  font-size: 25pt;
   font-weight: 300;
 }
 .particles-js{
