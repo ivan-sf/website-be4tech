@@ -594,15 +594,13 @@ header{
     /* border: 1px solid black; */
   }
   .img-2-banner{
-    padding-top: 5vh;
-    width: 30vh;
+    margin-top: 25vh;
+    width: 40vh;
   }
-  .img-banner{
-    width: 70vw;
-  }
-  .human-banner{
-    height: 35vh;
-  }
+
+
+
+
   .about{
     border: 3px solid yellow;
   }
