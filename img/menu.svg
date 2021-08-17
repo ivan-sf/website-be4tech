@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="36.626" height="31.333" viewBox="0 0 36.626 31.333">
   <g id="menu" transform="translate(-43.5 -368)">
-    <line id="Línea_12" data-name="Línea 12" x2="36.626" transform="translate(43.5 383.514)" fill="none" stroke="#269db7" stroke-width="6"/>
-    <line id="Línea_14" data-name="Línea 14" x2="36.626" transform="translate(43.5 396.333)" fill="none" stroke="#269db7" stroke-width="6"/>
-    <line id="Línea_13" data-name="Línea 13" x2="36.626" transform="translate(43.5 371)" fill="none" stroke="#269db7" stroke-width="6"/>
+    <line id="Línea_12" data-name="Línea 12" x2="36.626" transform="translate(43.5 383.514)" fill="none" stroke="#e5e5e5" stroke-width="6"/>
+    <line id="Línea_14" data-name="Línea 14" x2="36.626" transform="translate(43.5 396.333)" fill="none" stroke="#e5e5e5" stroke-width="6"/>
+    <line id="Línea_13" data-name="Línea 13" x2="36.626" transform="translate(43.5 371)" fill="none" stroke="#e5e5e5" stroke-width="6"/>
   </g>
 </svg>

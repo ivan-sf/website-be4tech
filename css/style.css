@@ -20,8 +20,7 @@ body {
   height: 110vh;
   width: 100vw;
   background: #0f0c29;  
-  background: -webkit-linear-gradient(to right, #10101c, #201d43, #0f0c29); 
-  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  background-image: linear-gradient(to left top, #c994da, #bc7ed0, #af67c7, #a250bd, #9436b3);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -36,32 +35,33 @@ body {
 
 /*******************************Header******************************/
 header{
-  width: 10vw;
-  height: 100vh;
+  width: 100vw;
+  height: 10vh;
   display: flex;
-  flex-direction: column;
   align-items: center;
   justify-content:space-between;
   z-index: 1000;
   position: fixed;
   left: 0;
+  z-index: 11100;
 }
 .logo-header{
   padding-top: 20px;
+  margin-left: 30px;
   width: 100px;
   cursor: pointer;
 }
 .menu-header{
+  padding-top: 20px;
+  margin-right: 40px;
   width: 28px;
-  padding-bottom: 50vh;
   cursor: pointer;
 }
 
 /********************************Banner*******************************/
 .banner {
   background: #0f0c29; 
-  background: -webkit-linear-gradient(to right, #10101c, #201d43, #0f0c29); 
-  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  background-image: linear-gradient(to left top, #c994da, #bc7ed0, #af67c7, #a250bd, #9436b3);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -71,15 +71,17 @@ header{
   z-index: 11000;
 }
 .box-logo-banner{
-  width: 45vw;
+  width: 50vw;
   /* border: 3px solid black; */
-  margin-left: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: -20vh;
 }
 .box-img-banner{
-  width: 45vw;
+  width: 50vw;
   /* border: 3px solid red; */
   display: flex;
   flex-direction: column;
@@ -102,14 +104,15 @@ header{
   position: relative;
 }
 .about-left{
-  width: 45vw;
+  width: 50vw;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   padding: 50px;
   color: #1096b2;
-  margin-left: 10vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
 }
 .about-left h1{
   font-family: 'Montserrat', sans-serif;
@@ -126,7 +129,7 @@ header{
   padding-top: 60px;
 }
 .about-right{
-  width: 45vw;
+  width: 50vw;
   display: flex;
   justify-content: center;
   align-items: center;
