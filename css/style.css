@@ -516,8 +516,9 @@ header{
   } 
 
   .img-2-banner{
-    padding-right: 25vw;
+    padding-right: 20vw;
     width: 200%;
+
   }
 
   .logo-banner{
@@ -526,14 +527,14 @@ header{
   .logo-header{
     margin-left: 20vw;
     width: 100%;
-    border: solid 5px yellow;
+    border: solid 5px blue;
     width: 100px;
   }
 
   .menu-header{
     margin-right: 20vw;
     width: 100%;
-    border: solid 5px yellow;
+    border: solid 5px blue;
     width: 28px;
   }
 }
