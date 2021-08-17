@@ -523,6 +523,13 @@ header{
   .logo-banner{
     width: 22vw;
   }
+  .logo-header{
+    left: 20vw;
+  }
+
+  .menu-header{
+    right: 20vh;
+  }
 }
 
 @media only screen and (max-width: 1366px) {
