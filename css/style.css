@@ -20,7 +20,7 @@ body {
   height: 110vh;
   width: 100vw;
   background: #0f0c29;  
-  background-image: linear-gradient(to left top, #c994da, #bc7ed0, #af67c7, #a250bd, #9436b3);
+  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
   display: flex;
   justify-content: center;
   align-items: center;
@@ -40,7 +40,6 @@ header{
   display: flex;
   align-items: center;
   justify-content:space-between;
-  z-index: 1000;
   position: fixed;
   left: 0;
   z-index: 11100;
@@ -61,11 +60,22 @@ header{
 /********************************Banner*******************************/
 .banner {
   background: #0f0c29; 
-  background-image: linear-gradient(to left top, #c994da, #bc7ed0, #af67c7, #a250bd, #9436b3);
+  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
   width: 100%;
   height: 100vh;
   display: flex;
   z-index: 1100;
+  font-family: 'Montserrat', sans-serif;
+}
+.banner h1{
+  color: #e5e5e5;
+  font-size: 30pt;
+  font-weight: 500;
+}
+.banner p{
+  color: #e5e5e5;
+  font-size: 15pt;
+  font-weight: 300;
 }
 .particles-js{
   z-index: 11000;
@@ -73,12 +83,15 @@ header{
 .box-logo-banner{
   width: 50vw;
   /* border: 3px solid black; */
-  margin-left: 5vw;
-  margin-right: 5vw;
+  margin-left: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-bottom: -20vh;
+  margin-bottom: 0vh;
+  flex-direction: column;
+}
+.box-logo-banner{
+  margin-bottom: 80px;
 }
 .box-img-banner{
   width: 50vw;
@@ -91,7 +104,6 @@ header{
 }
 .human-banner{
   height: 45vh;
-  margin-bottom: -20vh;
   z-index: 1;
 }
 
@@ -492,9 +504,9 @@ header{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 620px) {
-  .banner{
-    flex-direction: column;
-  }
+ 
+/******************************Header****************************/
+
   header{
     width: 100vw;
     height: 10vh;
@@ -508,41 +520,70 @@ header{
     width: 80px;
     cursor: pointer;
     position: absolute;
-    left: 10px;
+    left: 5px;
   }
 
   .menu-header{
     width: 20px;
     padding-bottom: 0;
     position: absolute;
-    right: 20px;
+    right: 0px;
   }
-
+/******************************Banner****************************/
+  .banner{
+    flex-direction: column;
+  }
+  .banner h1{
+    font-size: 18pt;
+    margin: 0 20px 0 20px;
+  }
+  .banner p{
+    font-size: 8pt;
+    margin: 0 20px 0 20px;
+  }
   .box-logo-banner{
     width: 100vw;
-    height: 40vh;
+    height: 35vh;
     /* border: 1px solid red; */
     margin-left: 0;
-    margin-top: 10vh;
+    /* border: solid 1px black; */
+    margin-top: 15vh;
   }
+
   .box-img-banner{
     margin: 0;
     padding: 20px;
     width: 100vw;
     height: 50vh;
-    margin-bottom: -10000vh;
+    /* border: solid 1px #f00; */
     /* border: 1px solid black; */
+    padding-bottom: 200px;
   } 
   .logo-banner{
     width: 40vw;
+    /* border: 1px solid black; */
   }
+
   .img-banner{
     width: 70vw;
-    margin-bottom: 5vh;
-    padding-bottom: -20px;
   }
   .human-banner{
-    margin-bottom: -10vh;
     height: 35vh;
+  }
+  .about{
+    border: 3px solid yellow;
+  }
+  .about-left h1{
+    font-size: 20pt;
+    font-weight: 400;
+  }
+  .about-left h1 span{
+    font-weight: 700;
+  }
+  .about-left p {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10pt;
+    font-weight: 300;
+    padding-top: 60px;
   }
 }
