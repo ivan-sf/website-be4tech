@@ -102,9 +102,11 @@ header{
   justify-content: center;
   margin: 120px;
 }
-.human-banner{
-  height: 45vh;
-  z-index: 1;
+.img-2-banner{
+  height: 75vh;
+}
+.logo-banner{
+  width: 20vw;
 }
 
 /********************************About*******************************/
