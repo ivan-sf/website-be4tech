@@ -8,7 +8,7 @@
   }
 
 body {
-  background-color: #201d43;
+  background-color: #174e64;
   align-items: center;
   position: absolute;
   width: 100%;
@@ -19,7 +19,7 @@ body {
 .preloader{
   height: 110vh;
   width: 100vw;
-  background: #0f0c29;  
+  background: #174e64;  
   background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   display: flex;
   justify-content: center;
