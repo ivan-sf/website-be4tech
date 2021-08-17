@@ -524,11 +524,15 @@ header{
     width: 22vw;
   }
   .logo-header{
-    padding-left: 20vw;
+    margin-left: 20vw;
+    width: 100%;
+    border: solid 5px yellow;
   }
 
   .menu-header{
-    padding-right: 20vw;
+    margin-right: 20vw;
+    width: 100%;
+    border: solid 5px yellow;
   }
 }
 
