@@ -516,9 +516,9 @@ header{
   } 
 
   .img-2-banner{
-    padding-right: 15vw;
+    margin-right: 15vw;
     width: 200%;
-    border: solid 5px burlywood;
+    border: solid 5px firebrick;
   }
 
   .logo-banner{
