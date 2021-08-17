@@ -594,6 +594,7 @@ header{
     /* border: 1px solid black; */
   }
   .img-2-banner{
+    padding-top: 5vh;
     width: 30vh;
   }
   .img-banner{
