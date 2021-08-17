@@ -524,11 +524,13 @@ header{
     width: 22vw;
   }
   .logo-header{
-    left: 20vw;
+    padding-left: 20vw;
+    border: 2px solid red;
   }
 
   .menu-header{
-    right: 20vh;
+    padding-right: 20vh;
+    border: 2px solid red;
   }
 }
 
