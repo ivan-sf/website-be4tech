@@ -20,7 +20,7 @@ body {
   height: 110vh;
   width: 100vw;
   background: #0f0c29;  
-  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ header{
 /********************************Banner*******************************/
 .banner {
   background: #0f0c29; 
-  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+  background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   width: 100%;
   height: 100vh;
   display: flex;
