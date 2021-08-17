@@ -84,16 +84,14 @@ header{
 .box-logo-banner{
   width: 50vw;
   /* border: 3px solid black; */
-  margin-left: 10vw;
   display: flex;
   align-items: center;
   justify-content: center;
   margin-bottom: 0vh;
   flex-direction: column;
-}
-.box-logo-banner{
   margin-bottom: 50px;
 }
+
 .box-img-banner{
   width: 50vw;
   /* border: 3px solid red; */
@@ -509,21 +507,29 @@ header{
 @media only screen and (max-width: 1920px) {
   .box-logo-banner{
     width: 50vw;
-    /* border: 3px solid black; */
     margin-left: 20vw;
-    margin-right: 30vw;
     display: flex;
     align-items: center;
     justify-content: center;
     margin-bottom: 0vh;
     flex-direction: column;
   }
+  
+ 
+
+  .img-2-banner{
+    margin-right: 20vw;
+    width: 135%;
+  }
+
+  .logo-banner{
+    width: 22vw;
+  }
 }
 
 @media only screen and (max-width: 1366px) {
   .box-logo-banner{
     width: 50vw;
-    /* border: 3px solid black; */
     margin-left: 10vw;
     display: flex;
     align-items: center;
@@ -574,9 +580,7 @@ header{
   .box-logo-banner{
     width: 100vw;
     height: 35vh;
-    /* border: 1px solid red; */
     margin-left: 0;
-    /* border: solid 1px black; */
     margin-top: 15vh;
   }
 
