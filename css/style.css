@@ -518,7 +518,8 @@ header{
  
 
   .img-2-banner{
-    padding-right: 20vw;
+    padding-right: 200vw;
+    border: solid red 5px;
     width: 135%;
   }
 
