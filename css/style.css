@@ -513,13 +513,10 @@ header{
     justify-content: center;
     margin-bottom: 0vh;
     flex-direction: column;
-  }
-  
- 
+  } 
 
   .img-2-banner{
     padding-right: 25vw;
-    border: solid yellow 5px;
     width: 200%;
   }
 
