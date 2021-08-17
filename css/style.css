@@ -516,9 +516,9 @@ header{
   } 
 
   .img-2-banner{
-    padding-right: 20vw;
+    padding-right: 18vw;
     width: 200%;
-    border: solid 5px black;
+    border: solid 5px red;
   }
 
   .logo-banner{
