@@ -67,6 +67,7 @@ header{
   z-index: 1100;
   font-family: 'Montserrat', sans-serif;
 }
+
 .banner h1{
   color: #e5e5e5;
   font-size: 30pt;
@@ -103,10 +104,10 @@ header{
   margin: 120px;
 }
 .img-2-banner{
-  width: 125%;
+  width: 115%;
 }
 .logo-banner{
-  width: 20vw;
+  width: 18vw;
 }
 
 /********************************About*******************************/
@@ -505,6 +506,33 @@ header{
   width: 60vw;
 }
 /******************************Media Queries****************************/
+@media only screen and (max-width: 1920px) {
+  .box-logo-banner{
+    width: 50vw;
+    /* border: 3px solid black; */
+    margin-left: 20vw;
+    margin-right: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0vh;
+    flex-direction: column;
+  }
+}
+
+@media only screen and (max-width: 1366px) {
+  .box-logo-banner{
+    width: 50vw;
+    /* border: 3px solid black; */
+    margin-left: 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 0vh;
+    flex-direction: column;
+  }
+}
+
 @media only screen and (max-width: 620px) {
  
 /******************************Header****************************/
