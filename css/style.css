@@ -525,12 +525,12 @@ header{
   }
   .logo-header{
     padding-left: 20vw;
-    border: 2px solid red;
+    border: 2px solid yellow;
   }
 
   .menu-header{
     padding-right: 20vw;
-    border: 2px solid red;
+    border: 2px solid yellow;
   }
 }
 
