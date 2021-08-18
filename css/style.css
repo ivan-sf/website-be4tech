@@ -46,7 +46,16 @@ header{
   left: 0;
   z-index: 11100;
 }
+.navscroll {
+  background-color:purple;
+  color:yellow;
+  transition:background-color 500ms, color 500ms;
+}
 
+.navscroll.azul {
+  background-color:blue;
+  color:white;
+}
 /********************************Banner*******************************/
 .text-banner h1{
   width: 45vw;
@@ -529,12 +538,10 @@ header{
 
 @media only screen and (max-width: 1366px) {
   .text-banner h1{
-    width: 45vw;
-    border: solid red 3px;
+    width: 50vw;
   }
   .text-banner p{
-    width: 45vw;
-    border: solid red 3px;
+    width: 50vw;
   }
   .box-logo-banner{
     width: 50vw;
