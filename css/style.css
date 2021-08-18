@@ -587,6 +587,7 @@ header{
     flex-direction:row;
     z-index: 2000;
     position: fixed;
+    border: 5px solid purple;
   }
   
   .logo-header{
