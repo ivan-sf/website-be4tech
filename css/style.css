@@ -38,20 +38,21 @@ body {
 /*******************************Header******************************/
 header{
   width: 100vw;
-  height: 10vh;
+  height: 12vh;
   display: flex;
   align-items: center;
   justify-content:space-between;
   position: fixed;
   left: 0;
   z-index: 11100;
+  padding:0px 15vw 20px 8vw;
 }
 .navscroll {
   transition:background-color 500ms, color 500ms;
 }
 
 .navscroll.azul {
-  background-color:#e5e5e590;
+  background-color:#1097b285;
 }
 /********************************Banner*******************************/
 .text-banner h1{
