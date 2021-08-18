@@ -30,7 +30,7 @@ body {
   } 
 
   .img-2-banner{
-    margin-right: 15vw;
+    margin-right: 20vw;
     width: 120%;
     /* border: solid 5px gold; */
   }
@@ -56,12 +56,17 @@ body {
 @media only screen and (max-width: 1366px) {
   .box-logo-banner{
     width: 50vw;
-    margin-left: 10vw;
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0vh;
     flex-direction: column;
+    margin-left: 0;
+  }
+  .text-banner h1{
+    width: 40vw;
+  }
+  .text-banner p{
+    width: 40vw;
   }
   .preloader{
     height: 110vh;
@@ -119,6 +124,7 @@ body {
     color: #e5e5e5;
     font-size: 40pt;
     font-weight: 600;
+    line-height: 40pt;
   }
   .banner p{
     color: #e5e5e5;
@@ -128,16 +134,7 @@ body {
   .particles-js{
     z-index: 11000;
   }
-  .box-logo-banner{
-    width: 50vw;
-    /* border: 3px solid black; */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 0vh;
-    flex-direction: column;
-    margin-bottom: 50px;
-  }
+
   
   .box-img-banner{
     width: 50vw;
@@ -149,7 +146,8 @@ body {
     margin: 120px;
   }
   .img-2-banner{
-    width: 115%;
+    width: 100%;
+    margin-right: -10vw;
   }
   .logo-banner{
     width: 18vw;
@@ -583,12 +581,12 @@ body {
     flex-direction: column;
   }
   .banner h1{
+    border: 2px solid black;
     font-size: 18pt;
-    margin: 0 20px 0 20px;
+    width: 80vw;
   }
   .banner p{
     font-size: 8pt;
-    margin: 0 20px 0 20px;
   }
   .box-logo-banner{
     width: 100vw;
