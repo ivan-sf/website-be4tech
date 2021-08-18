@@ -488,10 +488,10 @@ header{
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
   .text-banner h1{
-    width: 40vw;
+    width: 30vw;
   }
   .text-banner p{
-    width: 40vw;
+    width: 30vw;
   }
   .box-logo-banner{
     width: 50vw;
