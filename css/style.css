@@ -596,14 +596,13 @@ header{
     width: 80px;
     cursor: pointer;
     position: absolute;
-    left: 5px;
+    left: 5vw;
   }
-
   .menu-header{
     width: 20px;
     padding-bottom: 0;
     position: absolute;
-    right: 0px;
+    right: 5vw;
   }
 /******************************Banner****************************/
   .banner{
@@ -655,3 +654,15 @@ header{
   }
 }
 
+@media only screen and (max-width: 620px) {
+
+  .banner h1{
+    font-size: 20pt;
+    line-height: 20pt;
+    width: 80vw;
+  }
+  .banner p{
+    font-size: 10pt;
+  }
+
+}
