@@ -51,7 +51,7 @@ header{
 }
 
 .navscroll.azul {
-  background-color:#1097b2dc;
+  background-color:#1097b2a4;
 }
 /********************************Banner*******************************/
 .text-banner h1{
@@ -664,5 +664,10 @@ header{
   .banner p{
     font-size: 10pt;
   }
-
+  .logo-header{
+    left: 3vw;
+  }
+  .menu-header{
+    right: 3vw;
+  }
 }
