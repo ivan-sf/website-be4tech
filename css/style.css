@@ -494,8 +494,7 @@ header{
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
   .header{
-    border: solid blue 3px;
-    padding-left: 6vw;
+    padding-left: 5vw;
     padding-right: 6vw;
   }
   .text-banner h1{
