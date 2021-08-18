@@ -609,13 +609,14 @@ header{
   .banner{
     flex-direction: column;
   }
-  .banner h1{
-    font-size: 18pt;
-    line-height: 18pt;
-    width: 80vw;
+  
+ .banner h1{
+  font-size: 40pt;
+  line-height: 40pt;
+  width: 80vw;
   }
   .banner p{
-    font-size: 10pt;
+    font-size: 20pt;
   }
   .box-logo-banner{
     width: 100vw;
@@ -654,13 +655,3 @@ header{
   }
 }
 
-@media only screen and (max-width: 800px) {
- .banner h1{
-    font-size: 40pt;
-    line-height: 40pt;
-    width: 80vw;
-  }
-  .banner p{
-    font-size: 20pt;
-  }
-}
