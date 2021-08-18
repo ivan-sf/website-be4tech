@@ -489,9 +489,11 @@ header{
 @media only screen and (max-width: 1920px) {
   .text-banner h1{
     width: 30vw;
+    border: 1px solid black;
   }
   .text-banner p{
     width: 30vw;
+    border: 1px solid black;
   }
   .box-logo-banner{
     width: 50vw;
