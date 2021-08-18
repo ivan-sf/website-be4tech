@@ -587,7 +587,6 @@ header{
     flex-direction:row;
     z-index: 2000;
     position: fixed;
-    border: 5px solid purple;
   }
   
   .logo-header{
@@ -617,27 +616,19 @@ header{
   }
   .box-logo-banner{
     width: 100vw;
-    height: 35vh;
-    margin-left: 0;
-    margin-top: 15vh;
+    height: 50vh;
+    border: solid purple 5px;
   }
 
   .box-img-banner{
     margin: 0;
-    padding: 20px;
     width: 100vw;
     height: 50vh;
-    /* border: solid 1px #f00; */
-    /* border: 1px solid black; */
-    padding-bottom: 200px;
+    border: solid purple 5px;
   } 
-  .logo-banner{
-    width: 40vw;
-    /* border: 1px solid black; */
-  }
+
   .img-2-banner{
-    margin-top: 25vh;
-    width: 40vh;
+    width: 100%;
   }
 
 
