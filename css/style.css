@@ -45,14 +45,13 @@ header{
   position: fixed;
   left: 0;
   z-index: 11100;
-  padding:0px 15vw 20px 8vw;
 }
 .navscroll {
   transition:background-color 500ms, color 500ms;
 }
 
 .navscroll.azul {
-  background-color:#1097b285;
+  background-color:#1097b2dc;
 }
 /********************************Banner*******************************/
 .text-banner h1{
@@ -494,6 +493,9 @@ header{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .header{
+    padding:0px 10vw 20px 0vw;
+  }
   .text-banner h1{
     width: 30vw;
   }
@@ -535,6 +537,9 @@ header{
 }
 
 @media only screen and (max-width: 1366px) {
+  .header{
+    padding:0px 15vw 20px 8vw;
+  }
   .text-banner h1{
     width: 50vw;
   }
