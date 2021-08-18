@@ -47,14 +47,11 @@ header{
   z-index: 11100;
 }
 .navscroll {
-  background-color:purple;
-  color:yellow;
   transition:background-color 500ms, color 500ms;
 }
 
 .navscroll.azul {
-  background-color:blue;
-  color:white;
+  background-color:#e5e5e5;
 }
 /********************************Banner*******************************/
 .text-banner h1{
