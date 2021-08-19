@@ -58,6 +58,7 @@ nav ul{
   display: flex;
   text-decoration: none;
   list-style: none;
+  border: solid 3px blue;
 }
 nav ul li{
   font-family: 'Montserrat', sans-serif;
@@ -65,13 +66,12 @@ nav ul li{
   padding-top: 20px;
 }
 nav a{
-  color: #e5e5e5;
+  color: #e5e5e5ad;
   text-decoration: none;
   font-weight: 400;
 }
 nav a:hover{
-  font-weight: 450;
-  text-decoration: underline;
+  color: #e5e5e5;
 }
 /********************************Banner*******************************/
 .text-banner h1{
@@ -558,6 +558,9 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 1366px) {
+  nav{
+    padding-right: 2.5vw;
+  }
   .header{
     padding:0px 15vw 20px 8vw;
   }
