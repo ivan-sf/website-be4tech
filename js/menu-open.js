@@ -1,5 +1,5 @@
 $( ".menu-header" ).click(function() {
-    $('.hidden-overflow').addClass('hidden-overflow');
+    $('.body-overflow').css('overflow','hidden');
     gsap.set('.menu-open',{
         opacity: 0,y:0
     })
