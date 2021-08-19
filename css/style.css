@@ -72,9 +72,7 @@ nav a{
 nav a:hover{
   color: #e5e5e5;
 }
-.menu-header{
-  visibility: hidden;
-}
+
 /********************************Banner*******************************/
 .text-banner h1{
   width: 45vw;
@@ -515,7 +513,11 @@ nav a:hover{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
-  nav{
+  .menu-header{
+    display: none;
+    border: 3px solid black;
+  }
+  nav ul {
     padding-left: 17.5vw;
   }
   .header{
@@ -524,8 +526,10 @@ nav a:hover{
   }
   .text-banner h1{
     width: 30vw;
+    text-align: left;
   }
   .text-banner p{
+    text-align: left;
     width: 30vw;
   }
   .box-logo-banner{
@@ -554,28 +558,24 @@ nav a:hover{
     width: 100px;
   }
 
-  .menu-header{
-    margin-right: 20vw;
-    width: 100%;
-    /* border: solid 5px yellow; */
-    width: 28px;
-  }
+
 }
 
 @media only screen and (max-width: 1366px) {
-  nav{
-    padding-right: 5vw;
+  nav ul{
+    padding-right: 2vw;
   }
+
   .header{
     padding:0px 15vw 20px 8vw;
   }
   .text-banner h1{
     width: 50vw;
-    text-align: center;
+    text-align: left;
   }
   .text-banner p{
     width: 50vw;
-    text-align: center;
+    text-align: left;
   }
   .box-logo-banner{
     width: 50vw;
