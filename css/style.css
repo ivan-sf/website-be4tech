@@ -571,9 +571,11 @@ nav a:hover{
   }
   .text-banner h1{
     width: 50vw;
+    text-align: center;
   }
   .text-banner p{
     width: 50vw;
+    text-align: center;
   }
   .box-logo-banner{
     width: 50vw;
