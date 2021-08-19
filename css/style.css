@@ -516,7 +516,7 @@ nav a:hover{
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
   nav{
-    padding-left: 15vw;
+    padding-left: 17.5vw;
   }
   .header{
     padding-left: 5vw;
@@ -564,7 +564,7 @@ nav a:hover{
 
 @media only screen and (max-width: 1366px) {
   nav{
-    padding-right: 2.5vw;
+    padding-right: 5vw;
   }
   .header{
     padding:0px 15vw 20px 8vw;
