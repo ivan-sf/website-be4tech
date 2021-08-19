@@ -45,7 +45,7 @@ body {
 /*******************************Header******************************/
 header{
   width: 100vw;
-  height: 12vh;
+  height: 8vh;
   display: flex;
   align-items: center;
   justify-content:space-between;
