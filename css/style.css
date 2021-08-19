@@ -517,7 +517,7 @@ nav a:hover{
     display: none;
   }
   nav ul {
-    padding-right:0 ;
+    padding-right:20vw ;
   }
   .header{
     padding-left: 5vw;
