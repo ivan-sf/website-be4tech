@@ -5,17 +5,23 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+
   }
 
 body {
-  background-color: #174e64;
   align-items: center;
   position: absolute;
   width: 100%;
   height: 100vh;
   overflow-x: hidden;
 }
-
+.bg{
+  background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
+  position: absolute;
+  width: 100vw;
+  height: 600vh;
+  z-index: -1;
+}
 /*******************************Preloader******************************/
 
 .preloader{
@@ -81,8 +87,6 @@ nav a:hover{
   width: 45vw;
 }
 .banner {
-  background: #0f0c29; 
-  background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   width: 100%;
   height: 100vh;
   display: flex;
@@ -91,12 +95,14 @@ nav a:hover{
 }
 
 .banner h1{
+  z-index: 2;
   color: #e5e5e5;
   font-size: 40pt;
   font-weight: 600;
   line-height: 40pt;
 }
 .banner p{
+  z-index: 2;
   color: #e5e5e5;
   font-size: 15pt;
   font-weight: 200;
@@ -120,7 +126,6 @@ nav a:hover{
 .about{
   width: 100vw;
   height: 100vh;
-  background-color: #f4f7fa;
   display: flex;
   position: relative;
 }
@@ -168,9 +173,7 @@ nav a:hover{
 
 /********************************Team*******************************/
 .team{
-  background: #0f0c29; 
-  background: -webkit-linear-gradient(to right, #10101c, #201d43, #0f0c29); 
-  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+
   width: 100%;
   height: 100vh;
   display: flex;
@@ -308,7 +311,7 @@ nav a:hover{
 .partner{
   width: 100vw;
   height: 100vh;
-  background-color: #f4f7fa;
+
   position: relative;
   text-align: center;
   color: #1096b2;
@@ -377,9 +380,7 @@ nav a:hover{
 }
 /******************************Advisors********************************/
 .advisor{
-  background: #0f0c29; 
-  background: -webkit-linear-gradient(to right, #10101c, #201d43, #0f0c29); 
-  background: linear-gradient(to right, #10101c, #201d43, #0f0c29); 
+
   width: 100%;
   height: 100vh;
   position: relative;
@@ -499,7 +500,6 @@ nav a:hover{
 .environment{
   width: 100vw;
   height: 100vh;
-  background-color: #f4f7fa;
   position: relative;
   text-align: center;
   color: #1096b2;
@@ -631,7 +631,7 @@ nav a:hover{
     width: 80px;
     cursor: pointer;
     position: absolute;
-    margin-left: 35vw;
+    margin-left: 40vw;
   }
   .menu-header{
     width: 20px;
