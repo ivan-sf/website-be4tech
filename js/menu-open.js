@@ -9,3 +9,11 @@ $( ".menu-header" ).click(function() {
     })
   });
 
+  $( ".close-menu" ).click(function() {
+    gsap.set('.menu-open',{
+        opacity: 0,y:'180vh'
+    })
+    gsap.to('.menu-open',{
+        duration: 5, ease: "circ", opacity:1,y:'-180vh'
+    })
+  })
