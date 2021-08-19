@@ -53,6 +53,26 @@ header{
 .navscroll.azul {
   background-color:#1097b2a4;
 }
+
+nav ul{
+  display: flex;
+  text-decoration: none;
+  list-style: none;
+}
+nav ul li{
+  font-family: 'Montserrat', sans-serif;
+  padding-left: 50px;
+  padding-top: 20px;
+}
+nav a{
+  color: #e5e5e5;
+  text-decoration: none;
+  font-weight: 400;
+}
+nav a:hover{
+  font-weight: 450;
+  text-decoration: underline;
+}
 /********************************Banner*******************************/
 .text-banner h1{
   width: 45vw;
