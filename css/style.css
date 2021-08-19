@@ -606,13 +606,14 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 800px) {
-  
+
   nav{
     visibility: hidden;
   }
 
   .menu-header{
     visibility: visible;
+    display: inline;
     left: 10vw;
   }
 /******************************Header****************************/
@@ -630,7 +631,7 @@ nav a:hover{
     width: 80px;
     cursor: pointer;
     position: absolute;
-    left: 42.5%;
+    margin-left: 35vw;
   }
   .menu-header{
     width: 20px;
@@ -651,9 +652,12 @@ nav a:hover{
   font-size: 40pt;
   line-height: 40pt;
   width: 80vw;
+  text-align: center;
   }
   .banner p{
+    width: 80vw;
     font-size: 20pt;
+    text-align: center;
   }
   .box-logo-banner{
     width: 100vw;
