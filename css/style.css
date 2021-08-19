@@ -58,7 +58,6 @@ nav ul{
   display: flex;
   text-decoration: none;
   list-style: none;
-  border: solid 3px blue;
 }
 nav ul li{
   font-family: 'Montserrat', sans-serif;
@@ -72,6 +71,9 @@ nav a{
 }
 nav a:hover{
   color: #e5e5e5;
+}
+.menu-header{
+  visibility: hidden;
 }
 /********************************Banner*******************************/
 .text-banner h1{
@@ -603,7 +605,15 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 800px) {
- 
+  
+  nav{
+    visibility: hidden;
+  }
+
+  .menu-header{
+    visibility: visible;
+    left: 10vw;
+  }
 /******************************Header****************************/
 
   header{
@@ -614,15 +624,12 @@ nav a:hover{
     z-index: 2000;
     position: fixed;
   }
-  .logo-banner{
-    width: 0vw;
-    margin-left: -80vw;
-  }
+  
   .logo-header{
     width: 80px;
     cursor: pointer;
     position: absolute;
-    left: 5vw;
+    left: 42.5%;
   }
   .menu-header{
     width: 20px;
@@ -631,6 +638,10 @@ nav a:hover{
     right: 5vw;
   }
 /******************************Banner****************************/
+.logo-banner{
+  width: 0vw;
+  margin-left: -80vw;
+}
   .banner{
     flex-direction: column;
   }
