@@ -83,9 +83,9 @@ nav a:hover{
 
 .menu-open{
   width: 100vw;
-  height: 100vh;
+  height: 150vh;
   position: absolute;
-  top: -100vh;
+  top: -150vh;
   left: 0;
   background-color: #1096b2;
   z-index: 1000000000;
