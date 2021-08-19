@@ -515,10 +515,9 @@ nav a:hover{
 @media only screen and (max-width: 1920px) {
   .menu-header{
     display: none;
-    border: 3px solid black;
   }
   nav ul {
-    padding-left: 17.5vw;
+    padding-right:0 ;
   }
   .header{
     padding-left: 5vw;
