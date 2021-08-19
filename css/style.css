@@ -99,14 +99,13 @@ nav a:hover{
   flex-direction: column;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 30pt;
+  font-size: 20pt;
 }
 .menu-open ul li{
   margin: 20px;
 }
 .menu-open ul li a{
-  -webkit-text-stroke: .5px #e5e5e5;
-  color: transparent; 
+  color: #e5e5e5d4;
   font-weight: 800;
   text-decoration: none;
   transition: 1s;
