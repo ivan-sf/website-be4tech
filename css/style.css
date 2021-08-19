@@ -87,7 +87,8 @@ nav a:hover{
   position: absolute;
   top: -100vh;
   left: 0;
-  background-color: blueviolet;
+  background-color: #1096b2;
+  z-index: 1000000000;
 }
 
 /********************************Banner*******************************/
@@ -119,7 +120,7 @@ nav a:hover{
   font-weight: 200;
 }
 .particles-js{
-  z-index: 11000;
+  z-index: 1100;
 }
 
 
@@ -631,13 +632,11 @@ nav a:hover{
     padding-bottom: 0;
     position: absolute;
     right: 5vw;
-    z-index: 100000000;
-    border: solid 3px black;
+    z-index: 100000;
+    /* border: solid 3px black; */
   }
 
-  .menu-header:hover{
-    width: 1000px;
-  }
+
 /******************************Header****************************/
 
   header{
