@@ -121,6 +121,7 @@ nav a:hover{
   width: 25px;
   left: 10vw;
   top: 4vh;
+  cursor: pointer;
 }
 /********************************Banner*******************************/
 .text-banner h1{
