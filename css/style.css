@@ -83,14 +83,46 @@ nav a:hover{
 
 .menu-open{
   width: 100vw;
-  height: 150vh;
+  height: 180vh;
   position: absolute;
-  top: -150vh;
+  top: -180vh;
   left: 0;
   background-color: #1096b2;
   z-index: 1000000000;
 }
+.menu-open ul{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  list-style: none;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30pt;
+}
+.menu-open ul li{
+  margin: 20px;
+}
+.menu-open ul li a{
+  -webkit-text-stroke: .5px #e5e5e5;
+  color: transparent; 
+  font-weight: 800;
+  text-decoration: none;
+  transition: 1s;
+}
 
+.menu-open ul li a:hover{
+  color: #e5e5e5;
+  font-weight: 800;
+}
+
+.close-menu{
+  position: absolute;
+  width: 25px;
+  left: 10vw;
+  top: 4vh;
+}
 /********************************Banner*******************************/
 .text-banner h1{
   width: 45vw;
