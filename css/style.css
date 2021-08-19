@@ -22,6 +22,7 @@ body {
   height: 600vh;
   z-index: -1;
 }
+
 /*******************************Preloader******************************/
 
 .preloader{
@@ -77,6 +78,16 @@ nav a{
 }
 nav a:hover{
   color: #e5e5e5;
+}
+/*******************************Menu Open******************************/
+
+.menu-open{
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  top: -100vh;
+  left: 0;
+  background-color: blueviolet;
 }
 
 /********************************Banner*******************************/
@@ -603,6 +614,7 @@ nav a:hover{
     width: 28px;
     cursor: pointer;
   }
+  
 }
 
 @media only screen and (max-width: 800px) {
@@ -615,6 +627,16 @@ nav a:hover{
     visibility: visible;
     display: inline;
     left: 10vw;
+    width: 20px;
+    padding-bottom: 0;
+    position: absolute;
+    right: 5vw;
+    z-index: 100000000;
+    border: solid 3px black;
+  }
+
+  .menu-header:hover{
+    width: 1000px;
   }
 /******************************Header****************************/
 
@@ -633,12 +655,9 @@ nav a:hover{
     position: absolute;
     margin-left: 40vw;
   }
-  .menu-header{
-    width: 20px;
-    padding-bottom: 0;
-    position: absolute;
-    right: 5vw;
-  }
+
+
+
 /******************************Banner****************************/
 .logo-banner{
   width: 0vw;
