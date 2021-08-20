@@ -190,11 +190,12 @@ nav a:hover{
   text-align: center;
   font-size: 40pt;
   font-weight: 600;
-  margin-bottom: 10vh;
+  margin-bottom: 5vh;
 }
 .section-two{
   z-index: 1060;
   font-family: 'Montserrat', sans-serif;
+  border: solid 3px green;
   text-align: center;
 }
 .conv-hover{
@@ -214,7 +215,7 @@ nav a:hover{
   position: absolute;
   width: 200px;
   height: 100px;
-  right: 200px;
+  right: 250px;
   visibility: hidden;
 }
 
@@ -223,17 +224,19 @@ nav a:hover{
   position: absolute;
   width: 200px;
   height: 100px;
-  left: 200px;
+  left: 250px;
   visibility: hidden;
 }
 
 .tooltip-conv-bd{
   margin: 0 0 0 0 auto;
   position: absolute;
-  width: 200px;
+  width: 300px;
   height: 100px;
   visibility: hidden;
-  margin-top: 180px;
+  margin-top: 200px;
+  right: 0;
+  /* border: solid 3px black; */
 }
 /********************************About*******************************/
 .about{
