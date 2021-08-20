@@ -99,7 +99,7 @@ nav a:hover{
   flex-direction: column;
   list-style: none;
   font-family: 'Montserrat', sans-serif;
-  font-size: 20pt;
+  font-size: 10pt;
 }
 .menu-open ul li{
   margin: 20px;
@@ -166,6 +166,64 @@ nav a:hover{
   margin: 120px;
 }
 
+/********************************Section-Two*******************************/
+
+.section-two{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.section-two .convergencia{
+  width: 30vw;
+}
+
+.section-two h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40pt;
+  font-weight: 400;
+  color: #e5e5e5;
+  width: 50vw;
+  text-align: center;
+  font-size: 40pt;
+  font-weight: 600;
+  margin-bottom: 10vh;
+}
+.conv-hover{
+  width: 100px;
+  height: 150px;
+  position: absolute;
+}
+.conv-iot{
+  width: 140px;
+  height: 160px;
+  margin: 0 0 0 0 auto;
+  margin-bottom: 20px;
+  left: 38vw;
+  border: solid 3px purple;
+  background-color: aqua;
+}
+.conv-iot:hover{
+  border: solid 3px yellow;
+  background-color: red;
+}
+.conv-ia{
+  width: 100px;
+  height: 150px;
+  right: 38vw;
+  border: solid 3px blue;
+}
+.conv-bd{
+  width: 180px;
+  height: 100px;
+  right: 80px;
+  border: solid 3px red;
+  bottom: 20vh;
+  right: 45vw;
+}
 /********************************About*******************************/
 .about{
   width: 100vw;
