@@ -200,7 +200,7 @@ nav a:hover{
 }
 .conv-hover{
   position: absolute;
-  border: solid 3px red;
+  border: solid 3px yellow;
   border-radius: 20%;
 }
 
@@ -625,7 +625,7 @@ nav a:hover{
     height: 170px;
     margin: 0 0 0 0 auto;
     margin-bottom: 80px;
-    left: 12vw;
+    left: 22vw;
     top:35vh;
     transition: 3s;
   }
@@ -633,12 +633,12 @@ nav a:hover{
     width: 500px;
     height: 170px;
     top:35vh;
-    right: 12vw;
+    right: 22vw;
   }
   .conv-bd{
     width: 250px;
     height: 300px;
-    bottom: 0vh;
+    bottom: 5vh;
   }
   .menu-header{
     display: none;
@@ -688,25 +688,26 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 1366px) {
-  /* .conv-iot{
-    width: 140px;
-    height: 160px;
-    margin-bottom: 20px;
-    left: 40vw;
-    top:30vh;
+  .conv-iot{
+    width: 500px;
+    height: 170px;
+    margin: 0 0 0 0 auto;
+    margin-bottom: 80px;
+    left: 12vw;
+    top:35vh;
+    transition: 3s;
   }
   .conv-ia{
-    width: 120px;
-    height: 200px;
-    right: 37vw;
-    top:30vh;
+    width: 500px;
+    height: 170px;
+    top:35vh;
+    right: 12vw;
   }
   .conv-bd{
-    width: 180px;
-    height: 130px;
-    bottom: 17vh;
-    right: 45vw;
-  } */
+    width: 250px;
+    height: 300px;
+    bottom: 0vh;
+  }
   nav ul{
     padding-right: 2vw;
   }
