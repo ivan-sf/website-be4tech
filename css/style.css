@@ -200,7 +200,7 @@ nav a:hover{
 }
 .conv-hover{
   position: absolute;
-  border: solid 3px yellow;
+  border: solid 3px green;
   border-radius: 20%;
 }
 
@@ -622,7 +622,7 @@ nav a:hover{
 @media only screen and (max-width: 1920px) {
   .conv-iot{
     width: 500px;
-    height: 170px;
+    height: 220px;
     margin: 0 0 0 0 auto;
     margin-bottom: 80px;
     left: 22vw;
@@ -631,7 +631,7 @@ nav a:hover{
   }
   .conv-ia{
     width: 500px;
-    height: 170px;
+    height: 220px;
     top:35vh;
     right: 22vw;
   }
