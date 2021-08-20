@@ -623,8 +623,8 @@ nav a:hover{
     height: 150px;
     margin: 0 0 0 0 auto;
     margin-bottom: 20px;
-    left: 40vw;
-    top:38vh;
+    left: 37vw;
+    top:35vh;
     transition: 3s;
     border-radius: 50%;
   }
@@ -639,7 +639,7 @@ nav a:hover{
     width: 250px;
     height: 160px;
     right: 80px;
-    bottom: 25vh;
+    bottom: 22vh;
     right: 45vw;
     border-radius: 50%;
   }
