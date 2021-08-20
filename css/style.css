@@ -196,17 +196,18 @@ nav a:hover{
 .section-two{
   z-index: 1060;
   font-family: 'Montserrat', sans-serif;
-  border: solid 3px green;
+  /* border: solid 3px green; */
   text-align: center;
 }
 .conv-hover{
   position: absolute;
-  border: solid 3px green;
+  /* border: solid 3px green; */
   border-radius: 20%;
 }
 .conv-hover h2{
   color: #e5e5e5;
   font-weight: 800;
+  margin-bottom: 5px;
 }
 .conv-hover p{
   color: #e5e5e59a;
