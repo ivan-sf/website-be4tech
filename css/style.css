@@ -640,6 +640,10 @@ nav a:hover{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .conv-iot{
+    width: 300px;
+    height: 300px;
+  }
   .menu-header{
     display: none;
   }
