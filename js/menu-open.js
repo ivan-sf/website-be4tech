@@ -38,11 +38,11 @@ $( ".menu-header" ).click(function() {
 
   $(".conv-bd").hover(function(){
     gsap.to('.tooltip-conv-bd',{
-     ease: "circ",visibility:'visible',y:-20,opacity:1 
+     ease: "circ",visibility:'visible',y:-5,opacity:1 
     })
   }, function(){
     gsap.to('.tooltip-conv-bd',{
-      ease: "circ",visibility:'hidden',y:20,opacity:0
+      ease: "circ",visibility:'hidden',y:5,opacity:0
      });
      return false;
   });
