@@ -1,20 +1,3 @@
-
-1
-2
-3
-4
-5
-6
-7
-$(document).ready(function(){
-	$("#prueba").hover(function(){
-		$("#prueba").css("background-color", "#000000");
-		}, function(){
-			$("#prueba").css("background-color", "#C3C3C3");
-		});
-});
-
-
 $( ".menu-header" ).click(function() {
     $('.body-overflow').css('overflow','hidden');
     gsap.to('.menu-open',{
@@ -32,6 +15,34 @@ $( ".menu-header" ).click(function() {
   })
 
   $(".conv-iot").hover(function(){
-    alert("hola mundo")
-  })
-  
+    gsap.to('.tooltip-conv-iot',{
+     ease: "circ",visibility:'visible',y:40,opacity:1  
+    })
+  }, function(){
+    gsap.to('.tooltip-conv-iot',{
+      ease: "circ",visibility:'hidden',y:-40,opacity:0
+     });
+     return false;
+  });
+
+  $(".conv-ia").hover(function(){
+    gsap.to('.tooltip-conv-ia',{
+     ease: "circ",visibility:'visible',y:40,opacity:1  
+    })
+  }, function(){
+    gsap.to('.tooltip-conv-ia',{
+      ease: "circ",visibility:'hidden',y:-40,opacity:0
+     });
+     return false;
+  });
+
+  $(".conv-bd").hover(function(){
+    gsap.to('.tooltip-conv-bd',{
+     ease: "circ",visibility:'visible',y:-10,opacity:1 
+    })
+  }, function(){
+    gsap.to('.tooltip-conv-bd',{
+      ease: "circ",visibility:'hidden',y:10,opacity:0
+     });
+     return false;
+  });

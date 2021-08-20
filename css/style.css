@@ -192,37 +192,62 @@ nav a:hover{
   font-weight: 600;
   margin-bottom: 10vh;
 }
+.section-two{
+  z-index: 1060;
+  font-family: 'Montserrat', sans-serif;
+  color: #e5e5e5;
+  text-align: center;
+}
 .conv-hover{
-  width: 100px;
-  height: 150px;
   position: absolute;
+  border: solid 3px black;
 }
 .conv-iot{
   width: 140px;
   height: 160px;
   margin: 0 0 0 0 auto;
   margin-bottom: 20px;
-  left: 38vw;
-  border: solid 3px purple;
-  background-color: aqua;
+  left: 40vw;
+  top:30vh;
+  transition: 3s;
+  border-radius: 50%;
 }
-.conv-iot:hover{
-  border: solid 3px yellow;
-  background-color: red;
+.tooltip-conv-iot{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  right: 200px;
+  visibility: hidden;
 }
+
 .conv-ia{
-  width: 100px;
-  height: 150px;
-  right: 38vw;
-  border: solid 3px blue;
+  width: 120px;
+  height: 200px;
+  right: 37vw;
+  top:30vh;
+  border-radius: 50%;
+}
+.tooltip-conv-ia{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  left: 200px;
+  visibility: hidden;
 }
 .conv-bd{
   width: 180px;
-  height: 100px;
+  height: 130px;
   right: 80px;
-  border: solid 3px red;
-  bottom: 20vh;
+  bottom: 17vh;
   right: 45vw;
+  border-radius: 50%;
+}
+.tooltip-conv-bd{
+  position: absolute;
+  width: 200px;
+  height: 100px;
+  top: 150px;
+  visibility: hidden;
 }
 /********************************About*******************************/
 .about{
