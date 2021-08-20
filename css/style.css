@@ -637,19 +637,19 @@ nav a:hover{
     margin: 0 0 0 0 auto;
     margin-bottom: 80px;
     left: 22vw;
-    top:35vh;
+    top:25vh;
     transition: 3s;
   }
   .conv-ia{
     width: 500px;
     height: 220px;
-    top:35vh;
+    top:25vh;
     right: 22vw;
   }
   .conv-bd{
     width: 250px;
     height: 300px;
-    bottom: 5vh;
+    bottom: 10vh;
   }
   .menu-header{
     display: none;
