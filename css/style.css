@@ -195,15 +195,21 @@ nav a:hover{
 .section-two{
   z-index: 1060;
   font-family: 'Montserrat', sans-serif;
-  color: #e5e5e5;
   text-align: center;
 }
 .conv-hover{
   position: absolute;
-  border: solid 3px green;
+  /* border: solid 3px green; */
   border-radius: 20%;
 }
-
+.conv-hover h2{
+  color: #e5e5e5;
+  font-weight: 800;
+}
+.conv-hover p{
+  color: #e5e5e59a;
+  font-weight: 500;
+}
 .tooltip-conv-iot{
   position: absolute;
   width: 200px;
