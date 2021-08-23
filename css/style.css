@@ -20,7 +20,7 @@ body {
   background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   position: absolute;
   width: 100vw;
-  height: 600vh;
+  height: 320vh;
   z-index: -1;
 }
 
@@ -337,7 +337,8 @@ nav a:hover{
   width: 100vw;
   height: 100%;
   position: relative;
-  visibility: visible;
+  visibility: hidden;
+  display: none;
 }
 .carousel__contenedor {
 	position: relative;
@@ -1046,6 +1047,13 @@ nav a:hover{
     font-size: 10pt;
     font-weight: 300;
     padding-top: 60px;
+  }
+
+  .services-carousel{
+    width: 100vw;
+    height: 100%;
+    position: block;
+    visibility: visible;
   }
 
   .conv-iot{
