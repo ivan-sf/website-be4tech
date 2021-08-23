@@ -166,6 +166,50 @@ nav a:hover{
   margin: 120px;
 }
 
+/********************************Que hacemos*******************************/
+.section-two-que-hacemos{
+  position:  relative;
+  width: 500px;
+  height: 460px;
+}
+.img-about{
+  position: absolute;
+  margin: 0 0 0 0 auto;
+  cursor: pointer;
+}
+.ia-img{
+  left: 0;
+  bottom: 0;
+  width: 324px;
+  height: 279px;
+  transition: 1s;
+}
+.ia-img:hover{
+  width: 334px;
+  height: 289px;
+}
+.iot-img{
+  right: 0;
+  bottom: 0;
+  width: 298px;
+  height: 338px;
+
+}
+.big-data-img{
+  width: 320px;
+  height: 261px;
+  top: 0;
+  left: 11%;
+  margin: auto;
+}
+.e4-img{
+  top: 45%;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 150px;
+}
+
 /********************************Section-Two*******************************/
 
 .section-two{
