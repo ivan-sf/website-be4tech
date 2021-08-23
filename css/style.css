@@ -68,7 +68,7 @@ nav ul{
   list-style: none;
 }
 nav ul li{
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   padding-left: 50px;
   padding-top: 20px;
 }
@@ -99,7 +99,7 @@ nav a:hover{
   align-items: center;
   flex-direction: column;
   list-style: none;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   font-size: 10pt;
 }
 .menu-open ul li{
@@ -136,7 +136,7 @@ nav a:hover{
   height: 100vh;
   display: flex;
   z-index: 1100;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 
 .banner h1{
@@ -182,7 +182,7 @@ nav a:hover{
 }
 
 .section-two h1{
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   font-size: 40pt;
   font-weight: 400;
   color: #e5e5e5;
@@ -195,7 +195,7 @@ nav a:hover{
 }
 .section-two{
   z-index: 1060;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   /* border: solid 3px green; */
   text-align: center;
 }
@@ -237,7 +237,7 @@ nav a:hover{
   color: #e5e5e5;
   height:120vh;
   width: 100%;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Mulish', sans-serif;
   text-align: center;
 }
 .services hr{
@@ -339,6 +339,19 @@ nav a:hover{
   position: relative;
   visibility: hidden;
   display: none;
+  color: #e5e5e5;
+  font-family: 'Mulish', sans-serif;
+  text-align: center;
+}
+.services-carousel hr{
+  width: 4vw;
+  margin: 20px 47.5vw 20px 47.5vw;
+}
+.services-carousel h1{
+  padding-top: 20px;
+}
+.services-carousel p{
+  margin-bottom: 30px;
 }
 .carousel__contenedor {
 	position: relative;
@@ -425,7 +438,7 @@ nav a:hover{
   margin-right: 5vw;
 }
 .about-left h1{
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   font-size: 40pt;
   font-weight: 400;
 }
@@ -433,7 +446,7 @@ nav a:hover{
   font-weight: 700;
 }
 .about-left p {
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   font-size: 20pt;
   font-weight: 300;
   padding-top: 60px;
@@ -470,7 +483,7 @@ nav a:hover{
   margin-left: 10vw;
   display: flex;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .team-center{
   width: 35vw;
@@ -599,7 +612,7 @@ nav a:hover{
   position: relative;
   text-align: center;
   color: #1096b2;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .partner-group{
   height: 100vh;
@@ -675,7 +688,7 @@ nav a:hover{
   height: 100vh;
   display: flex;
   justify-content: center;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
 }
 .advisor-group h2{
   font-size: 15pt;
@@ -787,7 +800,7 @@ nav a:hover{
   position: relative;
   text-align: center;
   color: #1096b2;
-  font-family: 'Montserrat', sans-serif;
+    font-family: 'Mulish', sans-serif;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -988,10 +1001,6 @@ nav a:hover{
     margin-left: 40vw;
   }
 
-  .services{
-    display: none;
-    visibility: hidden;
-  }
 
 /******************************Banner****************************/
 .logo-banner{
@@ -1043,17 +1052,20 @@ nav a:hover{
     font-weight: 700;
   }
   .about-left p {
-    font-family: 'Montserrat', sans-serif;
+      font-family: 'Mulish', sans-serif;
     font-size: 10pt;
     font-weight: 300;
     padding-top: 60px;
   }
 
   .services-carousel{
-    width: 100vw;
-    height: 100%;
-    position: block;
+    display: inline;
     visibility: visible;
+  }
+
+  .services{
+    display: none;
+    visibility: hidden;
   }
 
   .conv-iot{
