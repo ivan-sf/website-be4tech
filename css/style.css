@@ -802,6 +802,9 @@ nav a:hover{
   header{
     height: 6vh;
   }
+  nav ul li{
+    padding-top: 10px;
+  }
   .tooltip-conv-bd{
     margin: 0 0 0 0 auto;
     position: absolute;
@@ -880,6 +883,9 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 1366px) {
+  nav ul li{
+    padding-top: 20px;
+  }
   header{
     height: 8vh;
   }
