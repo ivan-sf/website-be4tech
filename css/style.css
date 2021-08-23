@@ -59,7 +59,7 @@ header{
 }
 
 .navscroll.azul {
-  background-color:#1097b2a4;
+  background-color:#4b8c99a4;
 }
 
 nav ul{
@@ -799,6 +799,9 @@ nav a:hover{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  header{
+    height: 6vh;
+  }
   .tooltip-conv-bd{
     margin: 0 0 0 0 auto;
     position: absolute;
@@ -877,6 +880,9 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 1366px) {
+  header{
+    height: 8vh;
+  }
   .tooltip-conv-bd{
     margin: 0 0 0 0 auto;
     position: absolute;
