@@ -803,7 +803,8 @@ nav a:hover{
     height: 6vh;
   }
   nav ul li{
-    padding-top: 5px;
+    padding-top: 0px;
+    border:solid black 3px;
   }
   .tooltip-conv-bd{
     margin: 0 0 0 0 auto;
