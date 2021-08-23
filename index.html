@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="css/particles.css">
     <link rel="stylesheet" href="css/sphere.css">
     <link rel="stylesheet" href="css/preloader.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.css">
 </head>
 <body class="hidden-overflow body-overflow">
     <div class="menu-open">
@@ -62,7 +63,8 @@
             <img src="img/img-banner-2.png" class="img-2-banner hidden">
         </div>
     </section>
-    <!--About-->
+ 
+    <!--Que hacemos-->
     <section class="section-two">
         <h1>¿Qué hacemos?</h1>
         <div class="conv-iot conv-hover">
@@ -79,12 +81,141 @@
         </div>
         <div class="conv-bd conv-hover">
             <div class="tooltip-conv-bd">
-                <h2>Big Data</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sint debitis natus rerum excepturi.</p>
+                <h2>Big Data</h2> <br>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sint debitis natus rerum excepturi.</p><br>
             </div>
         </div>
         <img src="img/convergencia.png" class="convergencia">
     </section>
+     <!--Servicios-->
+     <section class="services">
+        <h1>Nuestros servicios</h1>
+        <hr>
+        <p>Te proporcionamos las mejores opciones para ti. Ajústa nuestros servicios a tus necesidades.</p>
+        <div class="services-group">
+            <div class="service-1 box-service">
+                <img src="img/services/1-acompañamiento.png" alt="">
+                <div class="text-service">
+                    <h2>Acompañamiento</h2>
+                    <p>Te acompañamos en la toma de medicamentos.</p>
+                </div>
+            </div>
+            <div class="service-2 box-service">
+                <img src="img/services/2-almacenamiento.png" alt="">
+                <div class="text-service">
+                    <h2>Almacenamiento</h2>
+                    <p>Guardamos todos tus datos en cualquier momento.</p>
+                </div>
+            </div>
+            <div class="service-3 box-service">
+                <img src="img/services/3-comunicacion.png" alt="">
+                <div class="text-service">
+                    <h2>Comunicación</h2>
+                    <p>Contamos con distintos canales de comunicación disponibles para ti.</p>
+                </div>
+            </div>
+            <div class="break"></div>
+            <div class="service-4 box-service">
+                <img src="img/services/4-monitoreo.png" alt="">
+                <div class="text-service">
+                    <h2>Monitoreo</h2>
+                    <p>Medimos y monitoreamos tus variables fisiológicos las 24 horas del dìa.</p>
+                </div>
+            </div>
+            <div class="service-5 box-service">
+                <img src="img/services/5-gestion.png" alt="">
+                <div class="text-service">
+                    <h2>Gestión</h2>
+                    <p>Te acopoyamos en todo tu proceso de vacunación.</p>
+                </div>
+            </div>
+            <div class="service-6 box-service">
+                <img src="img/services/6-tecnologia-vestible.png" alt="">
+                <div class="text-service">
+                    <h2>Tecnología vestible</h2>
+                    <p>Contamos con dispositivos vestibles que potencian nuestros resultados.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+     <!--Services Carousel-->
+     <section class="services-carousel">
+        <div class="carousel">
+			<div class="carousel__contenedor">
+				<button aria-label="Anterior" class="carousel__anterior">
+					<i class="fas fa-chevron-left"></i>
+				</button>
+
+				<div class="carousel__lista">
+					<div class="carousel__elemento">
+						<div class="service-1 box-service">
+                            <img src="img/services/1-acompañamiento.png" alt="">
+                            <div class="text-service">
+                                <h2>Acompañamiento</h2>
+                                <p>Te acompañamos en la toma de medicamentos.</p>
+                            </div>
+                        </div>
+					</div>
+					<div class="carousel__elemento">
+                        <div class="service-2 box-service">
+                            <img src="img/services/2-almacenamiento.png" alt="">
+                            <div class="text-service">
+                                <h2>Almacenamiento</h2>
+                                <p>Guardamos todos tus datos en cualquier momento.</p>
+                            </div>
+                        </div>
+					</div>
+					<div class="carousel__elemento">
+						<div class="service-3 box-service">
+                            <img src="img/services/3-comunicacion.png" alt="">
+                            <div class="text-service">
+                                <h2>Comunicación</h2>
+                                <p>Contamos con distintos canales de comunicación disponibles para ti.</p>
+                            </div>
+                        </div>
+					</div>
+					<div class="carousel__elemento">
+                        <div class="service-4 box-service">
+                            <img src="img/services/4-monitoreo.png" alt="">
+                            <div class="text-service">
+                                <h2>Monitoreo</h2>
+                                <p>Medimos y monitoreamos tus variables fisiológicos las 24 horas del dìa.</p>
+                            </div>
+                        </div>
+					</div>
+	
+					<div class="carousel__elemento">
+                        <div class="service-5 box-service">
+                            <img src="img/services/5-gestion.png" alt="">
+                            <div class="text-service">
+                                <h2>Gestión</h2>
+                                <p>Te acopoyamos en todo tu proceso de vacunación.</p>
+                            </div>
+                        </div>
+					</div>
+
+                    <div class="carousel__elemento">
+                        <div class="service-6 box-service">
+                            <img src="img/services/6-tecnologia-vestible.png" alt="">
+                            <div class="text-service">
+                                <h2>Tecnología vestible</h2>
+                                <p>Contamos con dispositivos vestibles que potencian nuestros resultados.</p>
+                            </div>
+                        </div>
+					</div>
+					
+				</div>
+
+				<button aria-label="Siguiente" class="carousel__siguiente">
+					<i class="fas fa-chevron-right"></i>
+				</button>
+			</div>
+
+			<div role="tablist" class="carousel__indicadores"></div>
+		</div>
+     </section>
+
+     <!--About-->
     <section class="about">
         <div class="about-left">
             <img src="img/about-bg.png" class="about-bg">
@@ -99,6 +230,7 @@
             <img src="img/human-about.svg" class="human-about">
         </div>
     </section>
+      
     <!--Team-->
     <section class="team">
         <div class="team-group">
@@ -225,9 +357,6 @@
         <img src="img/about-bg.png" class="about-bg">
         <img src="img/environment/environment-group.svg" class="environment-group">
     </section>
-
-</body>
-
 <!-- PARTICLES JS -->
 <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script> 
 <script src="js/particle.js"></script>
@@ -254,5 +383,11 @@
 <!-- Header -->
 <script src="js/header.js"></script>
 <script src="js/menu-open.js"></script>
+<!-- Glider carousel -->
+<script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script>
+<script src="js/glider.js"></script>
+</body>
+
+
 
 </html>
