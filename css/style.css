@@ -255,9 +255,10 @@ nav a:hover{
   right: 0;
   margin: auto;
   width: 150px;
+  transition: .5s;
 }
 .e4-img:hover{
-  box-shadow: -10px 10px 42px -4px rgba(0,0,0,.3);
+  width: 155px;
 }
 
 /********************************Section-Two*******************************/
