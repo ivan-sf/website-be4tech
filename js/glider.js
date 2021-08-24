@@ -14,10 +14,13 @@ window.addEventListener('load', function(){
 			  	breakpoint: 320,
 			  	settings: {
 				// Set to `auto` and provide item width to adjust to viewport
-				slidesToShow: 1,
-				slidesToScroll: 3,
+				// slidesToShow: 1,
+				// slidesToScroll: 3,
 				draggable: true,
 				scrollLock: true,
+				slidesToShow: 1.5,
+				slidesToScroll: 5,
+				duration: 0.25
 			  }
 			},{
 			  // screens greater than >= 1024px
