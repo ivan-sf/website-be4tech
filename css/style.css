@@ -20,7 +20,7 @@ body {
   background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   position: absolute;
   width: 100vw;
-  height: 320vh;
+  height: 420vh;
   z-index: -1;
 }
 
@@ -515,6 +515,7 @@ nav a:hover{
   justify-content: center;
   align-items: center;
   z-index: 3050;
+  overflow: hidden;
 }
 .swiper {
   width: 100%;
@@ -526,10 +527,8 @@ nav a:hover{
 .swiper-slide {
   background-position: center;
   background-size: cover;
-  width: 300px;
-  height: 300px;
-  background-color: #000000;
-  border: solid yellow 3px;
+  width: 250px;
+  height: 100%;
   z-index: 3050;
 }
 
@@ -1251,7 +1250,7 @@ nav a:hover{
 
 @media only screen and (max-width: 620px) {
   .box-service{
-    width: 200px;
+    width: 250px;
     height: 270px;
     background: rgba( 255, 255, 255, 0.80 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
