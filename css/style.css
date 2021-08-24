@@ -167,6 +167,24 @@ nav a:hover{
 }
 
 /********************************Que hacemos*******************************/
+.section-two-2{
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-family: 'Mulish', sans-serif;
+  color: #e5e5e5;
+}
+.section-two-2 h1{
+  padding-bottom: 5px;
+}
+.section-two-2 hr{
+  width: 4vw;
+  margin: 20px 47.5vw 30px 47.5vw;
+}
 .section-two-que-hacemos{
   position:  relative;
   width: 500px;
@@ -176,6 +194,7 @@ nav a:hover{
   position: absolute;
   margin: 0 0 0 0 auto;
   cursor: pointer;
+  z-index: 3000;
 }
 .ia-img{
   left: 0;
@@ -188,12 +207,34 @@ nav a:hover{
   width: 334px;
   height: 289px;
 }
+.section-two-que-hacemos h1{
+  position: absolute;
+  z-index: 3010;
+  font-size: 16pt;
+  font-weight: 800;
+  color:#095261;
+  bottom: 5%;
+  left: 30%;
+}
+.section-two-que-hacemos p{
+  width: 140px;
+  position: absolute;
+  bottom: 12%;
+  left: 5%;
+  z-index: 3010;
+  font-size: 9pt;
+  color: #454449;
+}
 .iot-img{
   right: 0;
   bottom: 0;
   width: 298px;
   height: 338px;
-
+  transition: 1s;
+}
+.iot-img:hover{
+  width: 309px;
+  height: 349px;
 }
 .big-data-img{
   width: 320px;
@@ -201,13 +242,22 @@ nav a:hover{
   top: 0;
   left: 11%;
   margin: auto;
+  transition: 1s;
 }
+.big-data-img:hover{
+  width: 326px;
+  height: 267px;
+}
+
 .e4-img{
   top: 45%;
   left: 0;
   right: 0;
   margin: auto;
   width: 150px;
+}
+.e4-img:hover{
+  box-shadow: -10px 10px 42px -4px rgba(0,0,0,.3);
 }
 
 /********************************Section-Two*******************************/
