@@ -340,6 +340,7 @@ nav a:hover{
   margin-left: 70px;
 }
 .content-iot p{
+  text-align: start;
   position: absolute;
   top: 30%;
   left: 15vw;
@@ -357,6 +358,7 @@ nav a:hover{
   margin-left: 70px;
 }
 .content-ia p{
+  text-align: start;
   position: absolute;
   top: 55%;
   left: 15vw;
@@ -374,6 +376,7 @@ nav a:hover{
   margin-left: 70px;
 }
 .content-bd p{
+  text-align: start;
   position: absolute;
   top: 75%;
   left: 15vw;
@@ -1234,28 +1237,35 @@ nav a:hover{
     margin-top: 40px;
   }
   .content-iot p{
-    margin-top: 15px;
+    padding: 10px;
+    font-size: 70%;
+    margin-left: 25px;
+    margin-top: 25px;
     top: 30%;
     left: 0vw;
-    width: 80vw;
+    width: 70vw;
     border-radius: 10px;
-    padding: 0;
   }
   .content-ia p{
-    margin-top: 10px;
+    margin-top: 20px;
     top: 55%;
     left: 0vw;
-    width: 80vw;
+    width: 70vw;
     border-radius: 10px;
-    padding: 0;
+    padding: 10px;
+    font-size: 70%;
+    margin-left: 25px;
   }
   .content-bd p{
     margin-top: 10px;
     top: 75%;
     left: 0vw;
-    width: 80vw;
+    width: 70vw;
     border-radius: 10px;
-    padding: 0;
+    padding: 10px;
+    font-size: 70%;
+    margin-left: 25px;
+    
   }
 
   .title-icon{
