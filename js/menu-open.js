@@ -56,7 +56,7 @@ $( ".menu-header" ).click(function() {
       x:-250,y:-280
     })
     gsap.to('.content-iot',{
-    ease: "circ",visibility:'visible',opacity:1,x:70,y:-280
+    ease: "circ",visibility:'visible',opacity:1,y:-280
     })
   }, function(){
     gsap.to('.icon-img-iot',{
@@ -76,7 +76,7 @@ $( ".menu-header" ).click(function() {
       x:-250,y:-160
     })
     gsap.to('.content-ia',{
-    ease: "circ",visibility:'visible',opacity:1,x:70,y:-170
+    ease: "circ",visibility:'visible',opacity:1,y:-170
     })
   }, function(){
     gsap.to('.icon-img-ia',{
@@ -96,7 +96,7 @@ $( ".menu-header" ).click(function() {
       x:-250,y:-60
     })
     gsap.to('.content-bd',{
-    ease: "circ",visibility:'visible',opacity:1,x:70,y:-60
+    ease: "circ",visibility:'visible',opacity:1,y:-60
     })
   }, function(){
     gsap.to('.icon-img-bd',{

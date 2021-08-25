@@ -337,6 +337,7 @@ nav a:hover{
 }
 .content-iot{
   visibility:hidden;
+  margin-left: 70px;
 }
 .content-iot p{
   position: absolute;
@@ -353,6 +354,7 @@ nav a:hover{
 }
 .content-ia{
   visibility:hidden;
+  margin-left: 70px;
 }
 .content-ia p{
   position: absolute;
@@ -369,6 +371,7 @@ nav a:hover{
 }
 .content-bd{
   visibility:hidden;
+  margin-left: 70px;
 }
 .content-bd p{
   position: absolute;
@@ -1228,27 +1231,31 @@ nav a:hover{
 @media only screen and (max-width: 800px) {
   .que-hacemos-img-2{
     display: inline;
+    margin-top: 40px;
   }
   .content-iot p{
+    margin-top: 15px;
     top: 30%;
     left: 0vw;
     width: 80vw;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0;
   }
   .content-ia p{
+    margin-top: 10px;
     top: 55%;
     left: 0vw;
     width: 80vw;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0;
   }
   .content-bd p{
+    margin-top: 10px;
     top: 75%;
     left: 0vw;
     width: 80vw;
     border-radius: 10px;
-    padding: 10px;
+    padding: 0;
   }
 
   .title-icon{
