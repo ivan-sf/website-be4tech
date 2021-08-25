@@ -1284,6 +1284,7 @@ nav a:hover{
     height: 50vh;
   }
   .que-hacemos-img{
+    display: none;
     /* border: pink solid 3px; */
     width: 100%;
     height: 40vh;
@@ -1369,9 +1370,6 @@ nav a:hover{
     margin-bottom: 20vh;
   }
 
-  .about{
-    /* border: 3px solid yellow; */
-  }
   .about-left h1{
     font-size: 20pt;
     font-weight: 400;
