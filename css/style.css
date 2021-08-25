@@ -615,7 +615,10 @@ nav a:hover{
 .section-aliados p{
   margin-bottom: 30px;
 }
-
+.aliados-mobile{
+  display: none;
+  visibility: hidden;
+}
 .aliados-desktop {
   width: 100vw;
   height: 80vh;
@@ -654,6 +657,10 @@ nav a:hover{
   width: 100vw;
   display: flex;
   justify-content: center;
+}
+.asesores-mobile{
+  display: none;
+  visibility: hidden;
 }
 .asesor{
   width: 250px;
@@ -1337,6 +1344,110 @@ nav a:hover{
 }
 
 @media only screen and (max-width: 800px) {
+  .bg{
+    height: 650vh;
+  }
+.map p{
+  font-size: 10pt;
+}
+.mapa-google{
+  width: 65vw;
+  height: 30vh;
+}
+.direccion{
+  width: 70vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.direccion p{
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.telefono{
+  width: 65vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.telefono p{
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.correo{
+  width: 65vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.correo p{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.rss{
+  width: 65vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.rss img{
+  margin-right: 20px;
+  cursor: pointer;
+}
+  
+.contacto input{
+  width: 65vw;
+}
+.contacto textarea{
+  width: 65vw;
+}
+
+  .section-contacto{
+    margin-top: 200px;
+  }
+
+  .contacto{
+    flex-direction: column;
+    width: 85vw;
+    height: 140vh;
+  }
+  .asesores-desktop{
+    display: none;
+    visibility: hidden;
+  }
+  .asesores-mobile{
+    display: flex;
+    visibility: visible;
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+  }
+  .asesores-mobile img{
+    width: 180px;
+  }
+  .aliados-desktop{
+    display: none;
+    visibility: hidden;
+  }
+
+  .aliados-mobile{
+    display: inline;
+    visibility: visible;
+    width: 100vw;
+    height: 80vh;
+  }
+  .aliados-mobile img{
+    width: 100%;
+  }
+  
   .que-hacemos-img-2{
     display: inline;
     margin-top: 40px;

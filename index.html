@@ -250,6 +250,9 @@
         <div class="aliados-desktop">
             <img src="img/partner/grupo-aliados.png" alt="">
         </div>
+        <div class="aliados-mobile">
+            <img src="img/partner/grupo-aliados-mobile.png" alt="">
+        </div>
     </section>
 
     <section class="section-asesores">
@@ -267,7 +270,21 @@
             <img src="img/advisor/asesor-4.png" class="asesor">
             <img src="img/advisor/asesor-5.png" class="asesor">
             <img src="img/advisor/asesor-6.png" class="asesor">
-            
+        </div>
+        <div class="asesores-mobile">
+            <!-- <img src="img/partner/grupo-aliados.png" alt=""> -->
+            <img src="img/advisor/asesor-1.png" class="asesor">
+            <img src="img/advisor/asesor-2.png" class="asesor">
+        </div>
+        <div class="asesores-mobile">
+            <!-- <img src="img/partner/grupo-aliados.png" alt=""> -->
+            <img src="img/advisor/asesor-3.png" class="asesor">
+            <img src="img/advisor/asesor-4.png" class="asesor">
+        </div>
+        <div class="asesores-mobile">
+            <!-- <img src="img/partner/grupo-aliados.png" alt=""> -->
+            <img src="img/advisor/asesor-5.png" class="asesor">
+            <img src="img/advisor/asesor-6.png" class="asesor">
         </div>
         
     </section>
@@ -308,7 +325,7 @@
                     <img src="img/contacto/twitter.png" alt="">
                 </div>
                 <div class="google-maps">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4273495926877!2d-75.57418418590682!3d6.207226578482886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282a81c212dd%3A0xab7158f63a2af846!2sOne%20Plaza%20Business%20Center!5e0!3m2!1ses-419!2sco!4v1629926269401!5m2!1ses-419!2sco" width="330" height="130" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3966.4273495926877!2d-75.57418418590682!3d6.207226578482886!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e44282a81c212dd%3A0xab7158f63a2af846!2sOne%20Plaza%20Business%20Center!5e0!3m2!1ses-419!2sco!4v1629926269401!5m2!1ses-419!2sco" width="330" height="130" style="border:0;" allowfullscreen="" loading="lazy" class="mapa-google"></iframe>
                 </div>
             </div>
         </div>
@@ -365,5 +382,24 @@
     });
   </script>
 
+<script>
+    function enviar_ajax(){	
+    
+        $.ajax({
+        type: 'POST',
+        url: 'mail.php',
+        data: $('#form1').serialize(),
+        success: function(respuesta) {
+            if(respuesta=='ok'){
+            alert('enviado');
+            }
+            else {
+            alert('error');
+            }
+        }
+        });
+    }
+</script>
+    
 
 </html>
