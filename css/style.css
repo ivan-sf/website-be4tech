@@ -1229,7 +1229,27 @@ nav a:hover{
   .que-hacemos-img-2{
     display: inline;
   }
-  
+  .content-iot p{
+    top: 30%;
+    left: 0vw;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .content-ia p{
+    top: 55%;
+    left: 0vw;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  .content-bd p{
+    top: 75%;
+    left: 0vw;
+    width: 80vw;
+    border-radius: 10px;
+    padding: 10px;
+  }
 
   .title-icon{
     width: 100vw;
