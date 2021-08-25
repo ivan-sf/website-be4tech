@@ -20,7 +20,7 @@ body {
   background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
   position: absolute;
   width: 100vw;
-  height: 420vh;
+  height: 640vh;
   z-index: -1;
 }
 
@@ -554,82 +554,6 @@ nav a:hover{
   flex-basis: 100%;
   height: 0;
 }
-/********************************Services carousel*******************************/
-.services-carousel{
-  width: 100vw;
-  height: 100%;
-  position: relative;
-  visibility: hidden;
-  display: none;
-  color: #e5e5e5;
-  font-family: 'Mulish', sans-serif;
-  text-align: center;
-}
-.services-carousel hr{
-  width: 4vw;
-  margin: 20px 47.5vw 20px 47.5vw;
-}
-.services-carousel h1{
-  padding-top: 20px;
-}
-.services-carousel p{
-  margin-bottom: 30px;
-}
-.carousel__contenedor {
-	position: relative;
-  z-index: 2200;
-  padding-left: 12.5vw;
-}
-.box-service.carousel{
-  z-index: 220000;
-  border: 3px solid black;
-}
-.carousel__anterior,
-.carousel__siguiente {
-	position: absolute;
-	display: block;
-	width: 30px;
-	height: 30px;
-	border: none;
-	top: calc(50% - 35px);
-	cursor: pointer;
-	line-height: 30px;
-	text-align: center;
-	background: none;
-	color: #fff;
-	opacity: 20%;
-  z-index: 2000;
-}
-
-.carousel__anterior:hover,
-.carousel__siguiente:hover {
-	opacity: 100%;
-}
-
-.carousel__anterior {
-	left: -30px;
-}
-
-.carousel__siguiente {
-	right: -30px;
-}
-
-
-
-.carousel__elemento {
-	text-align: center;
-}
-
-
-
-.carousel__indicadores .glider-dot:hover {
-	opacity: .5;
-}
-
-.carousel__indicadores .glider-dot.active {
-	opacity: 1;
-}
-
 
 /********************************Services carousel swiper*******************************/
 
@@ -639,18 +563,17 @@ nav a:hover{
   margin: 0;
   padding: 0;
   width: 100vw; 
-  height: 100vh; 
+  height: 0; 
   display: flex;
   justify-content: center;
   align-items: center;
   z-index: 3050;
   overflow: hidden;
   text-align: center;
-}
-.services-swiper{
   font-family: 'Mulish', sans-serif;
   color: #e5e5e5;
 }
+
 .services-swiper h1{
   padding-bottom: 5px;
 }
@@ -673,6 +596,187 @@ nav a:hover{
   z-index: 3050;
 }
 
+/********************************Aliados*******************************/
+.section-aliados{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  color: #e5e5e5;
+}
+
+.section-aliados hr{
+  width: 4vw;
+  margin: 20px 47.5vw 20px 47.5vw;
+}
+.section-aliados h1{
+  padding-top: 20px;
+}
+.section-aliados p{
+  margin-bottom: 30px;
+}
+
+.aliados-desktop {
+  width: 100vw;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.aliados-desktop img{
+  width: 70%;
+  cursor: pointer;
+}
+/********************************Asesores*******************************/
+.section-asesores{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-asesores hr{
+  width: 4vw;
+  margin: 20px 47.5vw 20px 47.5vw;
+}
+.section-asesores h1{
+  padding-top: 20px;
+}
+.section-asesores p{
+  margin-bottom: 30px;
+}
+.asesores-desktop{
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+}
+.asesor{
+  width: 250px;
+  cursor: pointer;
+  transition: 1s;
+}
+/********************************Contacto*******************************/
+.section-contacto{
+  width: 100vw;
+  height: 100vh;
+  text-align: center;
+  font-family: 'Mulish', sans-serif;
+  color: #e5e5e5;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.section-contacto hr{
+  width: 4vw;
+  margin: 20px 47.5vw 20px 47.5vw;
+}
+.section-contacto h1{
+  padding-top: 20px;
+}
+.section-contacto p{
+  margin-bottom: 30px;
+}
+.contacto{
+  width: 60vw;
+  height: 460px;
+  border-radius: 10px;
+  background: rgba( 255, 255, 255, 0.80 );
+  box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+  color: #0c0c0c;
+  display: flex;
+  text-align: start;
+  padding: 40px;
+}
+.contacto form{
+  width: 30vw;
+}
+.contacto map{
+  width: 30vw;
+}
+.contacto h2{
+  font-size: 14pt;
+  font-weight: 500;
+}
+.contacto input{
+  font-family: 'Mulish', sans-serif;
+  background-color: transparent;
+  border:  solid #B4BEC8 2px;
+  width: 90%;
+  height: 40px;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  color: #828991;
+}
+.contacto textarea{
+  font-family: 'Mulish', sans-serif;
+  background-color: transparent;
+  border:  solid #B4BEC8 2px;
+  width: 90%;
+  height: 90px;
+  margin: 10px 0 10px 0;
+  padding: 5px;
+  color: #828991;
+}
+.contacto input:last-child{
+  background-color: #23B1CF;
+  border:  solid #23B1CF 2px;
+  color: #e5e5e5;
+  cursor: pointer;
+}
+.direccion{
+  width: 24vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.direccion p{
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.telefono{
+  width: 24vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.telefono p{
+  margin-top: 35px;
+  margin-left: 20px;
+}
+.correo{
+  width: 24vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.correo p{
+  margin-top: 30px;
+  margin-left: 20px;
+}
+.rss{
+  width: 24vw;
+  height: 60px;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  /* border:  solid #23B1CF 2px; */
+}
+.rss img{
+  margin-right: 20px;
+}
 /********************************About*******************************/
 
 
@@ -1315,6 +1419,7 @@ nav a:hover{
   }
   
   .services-swiper{
+    height: 100vh; 
     display: inline;
     visibility: visible;
   }
