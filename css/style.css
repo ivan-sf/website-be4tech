@@ -506,6 +506,8 @@ nav a:hover{
 /********************************Services carousel swiper*******************************/
 
 .services-swiper{
+  display: none;
+  visibility: hidden;
   margin: 0;
   padding: 0;
   width: 100vw; 
@@ -515,6 +517,18 @@ nav a:hover{
   align-items: center;
   z-index: 3050;
   overflow: hidden;
+  text-align: center;
+}
+.services-swiper{
+  font-family: 'Mulish', sans-serif;
+  color: #e5e5e5;
+}
+.services-swiper h1{
+  padding-bottom: 5px;
+}
+.services-swiper hr{
+  width: 4vw;
+  margin: 20px 47.5vw 30px 47.5vw;
 }
 .swiper {
   width: 100%;
@@ -1091,6 +1105,10 @@ nav a:hover{
 
 @media only screen and (max-width: 800px) {
   
+  .services-swiper{
+    display: inline;
+    visibility: visible;
+  }
 
   nav{
     visibility: hidden;
@@ -1185,8 +1203,8 @@ nav a:hover{
   }
 
   .services-carousel{
-    display: inline;
-    visibility: visible;
+    display: none;
+    visibility: hidden;
   }
 
   .services{
@@ -1251,12 +1269,12 @@ nav a:hover{
   .box-service{
     width: 250px;
     height: 270px;
+    margin-left: -1px;
     background: rgba( 255, 255, 255, 0.80 );
     box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
     backdrop-filter: blur( 15.5px );
     -webkit-backdrop-filter: blur( 15.5px );
     border-radius: 10px;  border-radius: 5%;
-    margin: 10px;
     display: flex;
     flex-direction: column;
     font-family: 'Mulish', sans-serif;
