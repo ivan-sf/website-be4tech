@@ -1233,7 +1233,7 @@ nav a:hover{
     padding-right: 6vw;
   }
   .text-banner h1{
-    width: 30vw;
+    width: 100%;
     text-align: center;
   }
   .text-banner p{
@@ -1317,7 +1317,7 @@ nav a:hover{
   }
 
   .text-banner h1{
-    width: 50vw;
+    width: 100%;
     text-align: center;
   }
   .text-banner p{
