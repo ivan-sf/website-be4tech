@@ -200,7 +200,7 @@ nav a.active:after{
 .section-two-2{
   text-align: center;
   width: 100vw;
-  height: 80vh;
+  height: 60vh;
   display: flex;
   position: relative;
   justify-content: center;
@@ -347,7 +347,7 @@ nav a.active:after{
 .title-icon-iot{
   display: flex;
   align-items: center;
-  /* border: solid black 3px; */
+  /*  */
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -357,7 +357,7 @@ nav a.active:after{
 .title-icon-ia{
   display: flex;
   align-items: center;
-  /* border: solid black 3px; */
+  /*  */
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -366,7 +366,7 @@ nav a.active:after{
 .title-icon-bd{
   display: flex;
   align-items: center;
-  /* border: solid black 3px; */
+  /*  */
   cursor: pointer;
   width: 100%;
   height: 100%;
@@ -500,7 +500,7 @@ nav a.active:after{
   text-align: center;
   background: #fff;
   position: relative;
-  /* border: 3px solid black; */
+  
 }
 .services hr{
   width: 4vw;
@@ -710,10 +710,9 @@ nav a.active:after{
 }
 /********************************Contacto*******************************/
 .section-contacto{
-  border: solid 3px black;
+  
   position: relative;
   width: 100vw;
-  height: 120vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #0197B1;
@@ -1234,6 +1233,9 @@ nav a.active:after{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .section-contacto{
+    height: 90vh;
+  }
   .section-asesores{
     height: 90vh;
   }
@@ -1248,7 +1250,7 @@ nav a.active:after{
     bottom: 0;
   }
   .section-two-2-title{
-    margin-top: 70px;
+    margin-top: 140px;
   }
 
   header{
@@ -1358,7 +1360,9 @@ nav a.active:after{
 
 @media only screen and (max-width: 1366px) {
 
-  
+  .section-contacto{
+    height: 120vh;
+  }
   .section-asesores{
     height: 110vh;
   }
@@ -1735,7 +1739,7 @@ nav a.active:after{
   .conv-iot{
     width: 150px;
     left: 0;
-    border: solid black 3px;
+    
   }
 
   .conv-ia{
@@ -1759,7 +1763,7 @@ nav a.active:after{
     margin: 0 0 0 0;
     padding: 0 0 0 0;
     visibility: hidden;
-    /* border: 1px solid black; */
+    
   }
   
   
