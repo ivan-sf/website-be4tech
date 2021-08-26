@@ -40,7 +40,7 @@
             <ul>
                 <li><a href="#">Inicio</a></li>
                 <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Equipo</a></li>
+                <li><a href="#">Aliados</a></li>
                 <li><a href="#">Contacto</a></li>
             </ul>
         </nav>
@@ -49,19 +49,18 @@
     <!--Banner-->
     
     <section class="banner">
-        <div class="box-logo-banner box" >
+        <div class="box-logo-banner" >
             <!-- <img src="img/logo-banner.png" class="logo-banner hidden"> -->
             <!-- <img src="img/logo-banner-2.png" class="logo-banner hidden"> -->
-            <div class="text-banner logo-banner">
-                <h1>Analítica de datos centrada en el bienestar del ser humano.</h1>
+            <div class="text-banner">
+                <h1>Te acompañamos en <br>cada momento.</h1>
                 <br>
-                <p>Acompañarte en todo momento nunca fue tan fácil.</p>
+                <p>Analítica de datos centrada <br>en el bienestar humano.</p>
             </div>
         </div>
-        <div class="box-img-banner box">
+        <div class="box-img-banner">
             <!-- <img src="img/human.png" class="human-banner hidden"> -->
-            
-            <img src="img/img-banner-2.png" class="img-2-banner hidden">
+            <img src="img/world-bg-banner.png" class="img-2-banner hidden">
         </div>
     </section>
  
@@ -385,7 +384,7 @@
 <script>
     function enviar_ajax(){	
         $.ajax({
-        type: 'POST',
+        type: 'POST',   
         url: 'mail.php',
         data: $('#form1').serialize(),
         success: function(respuesta) {
