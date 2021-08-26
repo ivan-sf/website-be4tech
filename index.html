@@ -384,24 +384,21 @@
 
 <script>
     function enviar_ajax(){	
-        botonEnviado();
         $.ajax({
         type: 'POST',
         url: 'mail.php',
         data: $('#form1').serialize(),
         success: function(respuesta) {
             if(respuesta=='ok'){
-            alert('enviado');
+                botonEnviado();
             }
             else {
-            alert('error');
+                alert('Error al enviar el correo puedes usar otros metodos de contacto. Gracias');
             }
         }
         });
     }
-</script>
-    
-<script>
+
     function botonEnviado(){
         $(".boton-enviar").removeClass('sin-procesar');
         $(".boton-enviar").addClass('procesado');
