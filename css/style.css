@@ -128,7 +128,7 @@ nav a:hover{
 }
 /********************************Banner*******************************/
 .text-banner h1{
-  width: 45vw;
+  width: 100%;
 }
 .text-banner p{
   width: 45vw;
