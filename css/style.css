@@ -133,12 +133,26 @@ nav a:hover{
 .text-banner p{
   width: 100%;
 }
-.banner {
+.banner{
   width: 100%;
   height: 110vh;
   display: flex;
   z-index: 1100;
   font-family: 'Roboto', sans-serif;
+  /* border: solid green 3px; */
+  flex-direction: column;
+}
+.partners-banner{
+  width: 100vw;
+  height: 20vh;
+  /* border: solid blue 3px; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.partners-banner img{
+  /* border: solid blue 3px; */
+  margin: 0 20px 0 20px;
 }
 .particles-js{
   z-index: 110;
@@ -1323,7 +1337,7 @@ nav a:hover{
   .banner p{
     z-index: 2;
     color: #e5e5e5;
-    font-size: 200%;
+    font-size: 180%;
     font-weight: 300;
   }
   .text-banner h1{
