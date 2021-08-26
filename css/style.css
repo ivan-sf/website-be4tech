@@ -642,7 +642,6 @@ nav a.active:after{
 /********************************Aliados*******************************/
 .section-aliados{
   width: 100vw;
-  height: 50vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #0197B1;
@@ -1224,6 +1223,9 @@ nav a.active:after{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .section-aliados{
+    height: 30vh;
+  }
   .section-asesores{
     height: 90vh;
   }
@@ -1347,6 +1349,9 @@ nav a.active:after{
 }
 
 @media only screen and (max-width: 1366px) {
+  .section-aliados{
+    height: 50vh;
+  }
   .section-asesores{
     height: 150vh;
   }
