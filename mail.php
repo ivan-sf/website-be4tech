@@ -4,8 +4,8 @@ $correo = $_POST['correo'];
 $telefono = $_POST['telefono'];
 $mensaje = $_POST['mensaje'];
 
-// $destinatario = "ivansantander2020@gmail.com"; 
-$destinatario = "jherrera@be4tech.co"; 
+$destinatario = "ivansantander2020@gmail.com"; 
+// $destinatario = "jherrera@be4tech.co"; 
 $asunto = "Contacto Web Be4tech"; 
 $cuerpo = ' 
 <html> 
@@ -39,7 +39,7 @@ $headers .= "Return-path: $correo\r\n";
 $headers .= "Cc: $correo\r\n"; 
 
 //direcciones que recibirán copia oculta 
-$headers .= "Bcc: $correo,ivansantander2020@gmail.com\r\n"; 
+$headers .= "Bcc: $correo,ihosting14@gmail.com\r\n"; 
 
 
 

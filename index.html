@@ -301,7 +301,7 @@
                     <textarea id="mensaje" name="mensaje" rows="15" cols="50" placeholder="Tu mensaje"></textarea>
 
                     <!-- <input type="text" placeholder="Tu mensaje" name="mensaje" class="mensaje"><br> -->
-                    <input type="submit" value="Enviar">
+                    <input type="submit" value="Enviar" class="boton-enviar sin-procesar">
                 </form>
             </div>
             <div class="map">
@@ -384,7 +384,7 @@
 
 <script>
     function enviar_ajax(){	
-    
+        botonEnviado();
         $.ajax({
         type: 'POST',
         url: 'mail.php',
@@ -401,5 +401,12 @@
     }
 </script>
     
-
+<script>
+    function botonEnviado(){
+        $(".boton-enviar").removeClass('sin-procesar');
+        $(".boton-enviar").addClass('procesado');
+        $(".boton-enviar").val("Enviado");
+        $(".boton-enviar").prop("disabled",true);
+    }
+</script>
 </html>

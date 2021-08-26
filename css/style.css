@@ -731,11 +731,15 @@ nav a:hover{
   padding: 5px;
   color: #828991;
 }
-.contacto input:last-child{
+.contacto .sin-procesar{
   background-color: #23B1CF;
   border:  solid #23B1CF 2px;
   color: #e5e5e5;
   cursor: pointer;
+}
+
+.contacto .procesado{
+  background-color: #55e16c;
 }
 .direccion{
   width: 24vw;
