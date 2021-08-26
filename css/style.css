@@ -712,7 +712,7 @@ nav a.active:after{
 .section-contacto{
   position: relative;
   width: 100vw;
-  height: 110vh;
+  height: 120vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #0197B1;
@@ -721,9 +721,20 @@ nav a.active:after{
   justify-content: center;
   align-items: center;
   background: #F4FDFF;
+  z-index: -1;
   /*  */
 }
-
+.bg-contacto{
+  width: 100vw;
+  height: 65vh;
+  position: absolute;
+  bottom: 0;
+  background-image: url(../img/bg-home.png);
+  background-repeat: no-repeat;
+  background-size: 101%;
+  background-position: center center;
+  z-index: -1;
+}
 .section-contacto p{
   margin-top: 30px;
   margin-bottom: 30px;
