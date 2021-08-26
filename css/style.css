@@ -710,6 +710,7 @@ nav a.active:after{
 }
 /********************************Contacto*******************************/
 .section-contacto{
+  border: solid 3px black;
   position: relative;
   width: 100vw;
   height: 120vh;
