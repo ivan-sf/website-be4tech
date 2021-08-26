@@ -508,7 +508,7 @@ nav a.active:after{
   margin: 20px 47.5vw 20px 47.5vw;
 }
 .services h1{
-  padding-top: 30px;
+  padding-top: 70px;
 }
 .services p{
   color: #474A57;
@@ -647,7 +647,7 @@ nav a.active:after{
   font-family: 'Roboto', sans-serif;
   color: #0197B1;
   background: #F4FDFF;
-  /* border: solid 3px black; */
+  /*  */
 }
 
 .section-aliados h1{
@@ -675,7 +675,7 @@ nav a.active:after{
 }
 /********************************Asesores*******************************/
 .section-asesores{
-  border: solid 3px black;
+  
   width: 100vw;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -722,7 +722,7 @@ nav a.active:after{
   justify-content: center;
   align-items: center;
   background: #F4FDFF;
-  /* border: solid 3px black; */
+  /*  */
 }
 
 .section-contacto p{
@@ -1227,11 +1227,11 @@ nav a.active:after{
     height: 90vh;
   }
   .services{
-    height: 100vh;
+    height: 90vh;
   }
   .bg-services{
     width: 100vw;
-    height: 30vh;
+    height: 20vh;
     background: #F4FDFF;
     position: absolute;
     bottom: 0;
@@ -1254,7 +1254,7 @@ nav a.active:after{
     visibility: hidden;
     margin-top: 200px;
     right: 0;
-    /* border: solid 3px black; */
+    /*  */
   }
   .conv-iot{
     width: 500px;
@@ -1373,7 +1373,7 @@ nav a.active:after{
     visibility: hidden;
     margin-top: 200px;
     right: 0;
-    /* border: solid 3px black; */
+    /*  */
   }
   .conv-iot{
     width: 500px;
@@ -1609,7 +1609,7 @@ nav a.active:after{
     width: 4vw;
   }
   .que-hacemos-img{
-    /* border: solid 3px black; */
+    /*  */
     display: none;
     /* border: pink solid 3px; */
     width: 100%;
@@ -1635,7 +1635,7 @@ nav a.active:after{
     position: absolute;
     right: 5vw;
     z-index: 100000;
-    /* border: solid 3px black; */
+    /*  */
   }
 
 
@@ -1766,7 +1766,7 @@ nav a.active:after{
     height: 100px;
     visibility: hidden;
     right: 0;
-    /* border: solid 3px black; */
+    /*  */
     border: 1px solid yellow;
   }
 
