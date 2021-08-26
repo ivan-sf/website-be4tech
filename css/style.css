@@ -144,9 +144,9 @@ nav a:hover{
 .banner h1{
   z-index: 2;
   color: #e5e5e5;
-  font-size: 40pt;
+  font-size: 400%;
   font-weight: 500;
-  line-height: 40pt;
+  line-height: 60pt;
 }
 .banner p{
   z-index: 2;
