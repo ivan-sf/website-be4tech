@@ -642,15 +642,16 @@ nav a.active:after{
 /********************************Aliados*******************************/
 .section-aliados{
   width: 100vw;
+  height: 50vh;
   text-align: center;
   font-family: 'Roboto', sans-serif;
   color: #0197B1;
   background: #F4FDFF;
-  /* border: solid 3px black; */
+  border: solid 3px black;
 }
 
 .section-aliados h1{
-  padding-top: 80px;
+  padding-top: -20px;
 }
 .section-aliados p{
   margin-top: 30px;
@@ -1223,9 +1224,6 @@ nav a.active:after{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
-  .section-aliados{
-    height: 30vh;
-  }
   .section-asesores{
     height: 90vh;
   }
@@ -1349,9 +1347,6 @@ nav a.active:after{
 }
 
 @media only screen and (max-width: 1366px) {
-  .section-aliados{
-    height: 50vh;
-  }
   .section-asesores{
     height: 150vh;
   }
