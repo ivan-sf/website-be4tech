@@ -18,10 +18,10 @@
     <div class="menu-open">
         <img src="img/close.png" alt="" class="close-menu">
         <ul>
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Sobre nosotros</a></li>
-            <li><a href="#">Aliados</a></li>
-            <li><a href="#">Contacto</a></li>
+            <li class="inicio-nav active"><a href="#banner" class="active">Inicio</a></li>
+            <li class="nosotros-nav"><a href="#section-two-2">Sobre nosotros</a></li>
+            <li class="aliados-nav"><a href="#section-aliados">Aliados</a></li>
+            <li class="contacto-nav"><a href="#section-contacto">Contacto</a></li>
         </ul>
     </div>
     <div class="bg">
@@ -39,17 +39,17 @@
         <img src="img/logo.png" alt="" class="logo-header ">
         <nav>
             <ul>
-                <li><a href="#">Inicio</a></li>
-                <li><a href="#">Sobre nosotros</a></li>
-                <li><a href="#">Aliados</a></li>
-                <li><a href="#">Contacto</a></li>
+                <li><a href="#banner" class="inicio-nav active" onclick="inicioActive()">Inicio</a></li>
+                <li><a href="#section-two-2" class="nosotros-nav" onclick="nosotrosActive()">Sobre nosotros</a></li>
+                <li><a href="#section-aliados" class="aliados-nav" onclick="aliadosActive()">Aliados</a></li>
+                <li><a href="#section-contacto" class="contacto-nav" onclick="contactoActive()">Contacto</a></li>
             </ul>
         </nav>
     </header>
   
     <!--Banner-->
     
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="box-logo-banner" >
             <!-- <img src="img/logo-banner.png" class="logo-banner hidden"> -->
             <!-- <img src="img/logo-banner-2.png" class="logo-banner hidden"> -->
@@ -76,7 +76,7 @@
  
     <!--Que hacemos-->
    
-     <section class="section-two-2">
+     <section class="section-two-2" id="section-two-2">
         <div class="section-two-2-title">
             <h1>Sobre nosotros</h1>
             <hr>    
@@ -253,7 +253,7 @@
     </section>
 
     <!--Aliados-->
-    <section class="section-aliados">
+    <section class="section-aliados" id="section-aliados">
         <h1>Nuestros aliados</h1>
         <hr>
         <div class="aliados-desktop">
@@ -297,7 +297,7 @@
         </div>
         
     </section>
-    <section class="section-contacto">
+    <section class="section-contacto" id="section-contacto">
         <h1>Contáctanos</h1>
         <hr>
         <div class="contacto">
@@ -419,6 +419,29 @@
         $(this).addClass('magictime boingInUp');
     });
 
-    
+    function inicioActive(){
+        $(".nosotros-nav").removeClass("active");
+        $(".aliados-nav").removeClass("active");
+        $(".contacto-nav").removeClass("active");
+        $(".inicio-nav").addClass("active");
+    }
+    function nosotrosActive(){
+        $(".nosotros-nav").addClass("active");
+        $(".aliados-nav").removeClass("active");
+        $(".contacto-nav").removeClass("active");
+        $(".inicio-nav").removeClass("active");
+    }
+    function aliadosActive(){
+        $(".nosotros-nav").removeClass("active");
+        $(".aliados-nav").addClass("active");
+        $(".contacto-nav").removeClass("active");
+        $(".inicio-nav").removeClass("active");
+    }
+    function contactoActive(){
+        $(".nosotros-nav").removeClass("active");
+        $(".aliados-nav").removeClass("active");
+        $(".contacto-nav").addClass("active");
+        $(".inicio-nav").removeClass("active");
+    }
 </script>
 </html>
