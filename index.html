@@ -12,6 +12,7 @@
     <link rel="stylesheet" href="css/sphere.css">
     <link rel="stylesheet" href="css/preloader.css">
     <link rel="stylesheet" href="css/glider.min.css">
+    <link rel="stylesheet" href="css/magic.min.css">
 </head>
 <body class="hidden-overflow body-overflow">
     <div class="menu-open">
@@ -64,11 +65,11 @@
         </div>
         <div class="partners-banner">
             <div class="group-partners-banner">
-                <img src="img/partner/partner-banner-1.png" alt="">
-                <img src="img/partner/partner-banner-2.png" alt="">
-                <img src="img/partner/partner-banner-3.png" alt="">
-                <img src="img/partner/partner-banner-4.png" alt="">
-                <img src="img/partner/partner-banner-5.png" alt="">
+                <img src="img/partner/partner-banner-1.png" alt="" class="icon-partner-banner">
+                <img src="img/partner/partner-banner-2.png" alt="" class="icon-partner-banner">
+                <img src="img/partner/partner-banner-3.png" alt="" class="icon-partner-banner">
+                <img src="img/partner/partner-banner-4.png" alt="" class="icon-partner-banner">
+                <img src="img/partner/partner-banner-5.png" alt="" class="icon-partner-banner">
             </div>
         </div>
     </section>
@@ -413,5 +414,11 @@
         $(".boton-enviar").val("Enviado");
         $(".boton-enviar").prop("disabled",true);
     }
+
+    $('.icon-partner-banner').hover(function () {
+        $(this).addClass('magictime boingInUp');
+    });
+
+    
 </script>
 </html>

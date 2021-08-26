@@ -19,7 +19,7 @@ body {
 }
 .bg{
   background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
-  background: #fff;
+  /* background: #fff; */
   position: absolute;
   width: 100vw;
   height: 640vh;
@@ -135,7 +135,7 @@ nav a:hover{
 }
 .banner{
   width: 100%;
-  height: 110vh;
+  height: 120vh;
   display: flex;
   z-index: 1100;
   font-family: 'Roboto', sans-serif;
@@ -149,6 +149,8 @@ nav a:hover{
   display: flex;
   justify-content: center;
   align-items: center;
+  z-index: 3000;
+  background: #e5e5e5;
 }
 
 .particles-js{
@@ -1252,7 +1254,7 @@ nav a:hover{
   }
   .box-logo-banner{
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -1271,8 +1273,10 @@ nav a:hover{
   }
 
   .partners-banner img{
+    cursor: pointer;
     /* border: solid blue 3px; */
     margin: 0 50px 0 50px;
+    z-index: 3000;
   }
 
 
@@ -1354,6 +1358,7 @@ nav a:hover{
   .partners-banner img{
     /* border: solid blue 3px; */
     margin: 0 20px 0 20px;
+    z-index: 3000;
   }
   .logo-header{
     padding-top: 20px;
