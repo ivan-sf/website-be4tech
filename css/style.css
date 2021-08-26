@@ -726,7 +726,6 @@ nav a.active:after{
 }
 .bg-contacto{
   width: 100vw;
-  height: 65vh;
   position: absolute;
   bottom: 0;
   background-image: url(../img/bg-home.png);
@@ -1233,6 +1232,9 @@ nav a.active:after{
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .bg-contacto{
+    height: 50vh;
+  }
   .section-contacto{
     height: 90vh;
   }
@@ -1359,7 +1361,9 @@ nav a.active:after{
 }
 
 @media only screen and (max-width: 1366px) {
-
+  .bg-contacto{
+    height: 65vh;
+  }
   .section-contacto{
     height: 120vh;
   }
