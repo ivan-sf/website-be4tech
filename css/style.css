@@ -131,7 +131,7 @@ nav a:hover{
   width: 100%;
 }
 .text-banner p{
-  width: 45vw;
+  width: 100%;
 }
 .banner {
   width: 100%;
@@ -139,20 +139,6 @@ nav a:hover{
   display: flex;
   z-index: 1100;
   font-family: 'Roboto', sans-serif;
-}
-
-.banner h1{
-  z-index: 2;
-  color: #e5e5e5;
-  font-size: 400%;
-  font-weight: 500;
-  line-height: 60pt;
-}
-.banner p{
-  z-index: 2;
-  color: #e5e5e5;
-  font-size: 15pt;
-  font-weight: 400;
 }
 .particles-js{
   z-index: 110;
@@ -1232,13 +1218,26 @@ nav a:hover{
     padding-left: 5vw;
     padding-right: 6vw;
   }
+  .banner h1{
+    z-index: 2;
+    color: #e5e5e5;
+    font-size: 550%;
+    font-weight: 500;
+    line-height: 60pt;
+  }
+  .banner p{
+    z-index: 2;
+    color: #e5e5e5;
+    font-size: 250%;
+    font-weight: 300;
+  }
   .text-banner h1{
     width: 100%;
     text-align: center;
   }
   .text-banner p{
     text-align: center;
-    width: 30vw;
+    width: 100%;
   }
   .box-logo-banner{
     width: 100vw;
@@ -1315,13 +1314,25 @@ nav a:hover{
   .header{
     padding:0px 15vw 20px 8vw;
   }
-
+  .banner h1{
+    z-index: 2;
+    color: #e5e5e5;
+    font-size: 400%;
+    font-weight: 500;
+    line-height: 60pt;
+  }
+  .banner p{
+    z-index: 2;
+    color: #e5e5e5;
+    font-size: 200%;
+    font-weight: 300;
+  }
   .text-banner h1{
     width: 100%;
     text-align: center;
   }
   .text-banner p{
-    width: 50vw;
+    width: 100%;
     text-align: center;
   }
 
@@ -1583,7 +1594,7 @@ nav a:hover{
   text-align: center;
   }
   .banner p{
-    width: 80vw;
+    width: 100%;
     font-size: 20pt;
     text-align: center;
   }
