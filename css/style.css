@@ -22,7 +22,7 @@ body {
 }
 .bg{
   background-image: radial-gradient(circle, #1096b2, #138ba4, #158097, #16758a, #176a7d, #176376, #165b6f, #165468, #174e64, #19475f, #1b415a, #1d3b55);
-  /* background: #fff; */
+  background: #fff;
   position: absolute;
   width: 100vw;
   z-index: -1;
@@ -203,7 +203,6 @@ nav a.active:after{
   height: 60vh;
   display: flex;
   position: relative;
-  justify-content: center;
   align-items: center;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
@@ -613,16 +612,18 @@ nav a.active:after{
   overflow: hidden;
   text-align: center;
   font-family: 'Roboto', sans-serif;
-  color: #e5e5e5;
+  color: #0197B1;
+  background: #fff;
 }
 
 .services-swiper h1{
+  padding-top: 50px;
   padding-bottom: 5px;
 }
-.services-swiper hr{
-  width: 4vw;
-  margin: 20px 47.5vw 30px 47.5vw;
+.services-swiper p{
+  color: #474A57;
 }
+
 .swiper {
   width: 100%;
   padding-top: 50px;
@@ -646,7 +647,6 @@ nav a.active:after{
   font-family: 'Roboto', sans-serif;
   color: #0197B1;
   background: #F4FDFF;
-  /*  */
 }
 
 .section-aliados h1{
@@ -674,7 +674,6 @@ nav a.active:after{
 }
 /********************************Asesores*******************************/
 .section-asesores{
-  
   width: 100vw;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -710,7 +709,6 @@ nav a.active:after{
 }
 /********************************Contacto*******************************/
 .section-contacto{
-  
   position: relative;
   width: 100vw;
   text-align: center;
@@ -1465,6 +1463,21 @@ nav a.active:after{
 }
 
 @media only screen and (max-width: 800px) {
+  .bg-contacto{
+    background-size: cover;
+  }
+  .section-contacto{
+    height: 165vh;
+  }
+  .section-asesores{
+    height: 130vh;
+  }
+  .section-asesores h1{
+    margin-top: 50px;
+  }
+  .section-aliados{
+    height: 100vh;
+  }
   .bg{
     height: 650vh;
   }
@@ -1563,7 +1576,7 @@ nav a.active:after{
     height: 80vh;
   }
   .aliados-mobile img{
-    width: 100%;
+    width: 80%;
   }
   
   .que-hacemos-img-2{
@@ -1571,6 +1584,10 @@ nav a.active:after{
     margin-top: 40px;
     margin-bottom: 80px;
   }
+  .que-hacemos-img-2 img{
+    width: 100vw;
+  }
+
   .content-iot p{
     padding: 10px;
     font-size: 70%;
@@ -1620,11 +1637,12 @@ nav a.active:after{
   }
 
   .section-two-2{
-    text-align: center;
+  height: 170vh;
+  text-align: center;
   }
 
   .section-two-2-title{
-    margin-top: -5vh;
+    margin-top: 5vh;
   }
   .section-two-2 hr{
     width: 4vw;
@@ -1641,6 +1659,7 @@ nav a.active:after{
     height: 100vh; 
     display: inline;
     visibility: visible;
+    background: #fff;
   }
 
   nav{
@@ -1699,21 +1718,21 @@ nav a.active:after{
   .box-logo-banner{
     width: 100vw;
     height: 100vh;
-    margin-top: 10vh;
+    background-image: url(../img/bg-home.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
     /* border: solid red 5px; */
   }
 
   .box-img-banner{
-    border: solid blue 5px;
     margin: 0;
     width: 100vw;
-    height: 50vh;
-    /* border: solid rgb(141, 125, 141) 5px; */
+    height: 100vh;
   } 
 
   .img-2-banner{ /*mobile*/
-    margin-bottom: 20vh;
-    border: solid red 5px;
+    width: 50%;
   }
 
   .about-left h1{

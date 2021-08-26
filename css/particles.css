@@ -4,7 +4,7 @@ canvas {
 #particles-js {
     position: absolute;
     width: 100vw;
-    height: 90vh;
+    height: 100vh;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: 50% 50%;
