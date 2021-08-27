@@ -158,30 +158,81 @@ $('.icon-partner-banner').hover(function () {
 });
 
 function inicioActive(){
-    close();
-    $(".nosotros-nav").removeClass("active");
-    $(".aliados-nav").removeClass("active");
-    $(".contacto-nav").removeClass("active");
-    $(".inicio-nav").addClass("active");
+  $(".nosotros-nav").removeClass("active");
+  $(".aliados-nav").removeClass("active");
+  $(".asesores-nav").removeClass("active");
+  $(".contacto-nav").removeClass("active");
+  $(".inicio-nav").addClass("active");
 }
 function nosotrosActive(){
-    close();
-    $(".nosotros-nav").addClass("active");
-    $(".aliados-nav").removeClass("active");
-    $(".contacto-nav").removeClass("active");
-    $(".inicio-nav").removeClass("active");
+  $(".asesores-nav").removeClass("active");
+  $(".nosotros-nav").addClass("active");
+  $(".aliados-nav").removeClass("active");
+  $(".contacto-nav").removeClass("active");
+  $(".inicio-nav").removeClass("active");
 }
 function aliadosActive(){
-    close();
-    $(".nosotros-nav").removeClass("active");
-    $(".aliados-nav").addClass("active");
-    $(".contacto-nav").removeClass("active");
-    $(".inicio-nav").removeClass("active");
+  $(".nosotros-nav").removeClass("active");
+  $(".asesores-nav").removeClass("active");
+  $(".aliados-nav").addClass("active");
+  $(".contacto-nav").removeClass("active");
+  $(".inicio-nav").removeClass("active");
 }
 function contactoActive(){
-    close();
-    $(".nosotros-nav").removeClass("active");
-    $(".aliados-nav").removeClass("active");
-    $(".contacto-nav").addClass("active");
-    $(".inicio-nav").removeClass("active");
+$(".nosotros-nav").removeClass("active");
+$(".asesores-nav").removeClass("active");
+$(".aliados-nav").removeClass("active");
+$(".contacto-nav").addClass("active");
+$(".inicio-nav").removeClass("active");
+}
+function asesoresActive(){
+$(".nosotros-nav").removeClass("active");
+$(".asesores-nav").addClass("active");
+$(".aliados-nav").removeClass("active");
+$(".contacto-nav").removeClass("active");
+$(".inicio-nav").removeClass("active");
+}
+
+
+
+
+function inicioActiveMobile(){
+  close();
+  $(".nosotros-nav").removeClass("active");
+  $(".aliados-nav").removeClass("active");
+  $(".asesores-nav").removeClass("active");
+  $(".contacto-nav").removeClass("active");
+  $(".inicio-nav").addClass("active");
+}
+function nosotrosActiveMobile(){
+  close();
+  $(".asesores-nav").removeClass("active");
+  $(".nosotros-nav").addClass("active");
+  $(".aliados-nav").removeClass("active");
+  $(".contacto-nav").removeClass("active");
+  $(".inicio-nav").removeClass("active");
+}
+function aliadosActiveMobile(){
+  close();
+  $(".nosotros-nav").removeClass("active");
+  $(".asesores-nav").removeClass("active");
+  $(".aliados-nav").addClass("active");
+  $(".contacto-nav").removeClass("active");
+  $(".inicio-nav").removeClass("active");
+}
+function contactoActiveMobile(){
+close();
+$(".nosotros-nav").removeClass("active");
+$(".asesores-nav").removeClass("active");
+$(".aliados-nav").removeClass("active");
+$(".contacto-nav").addClass("active");
+$(".inicio-nav").removeClass("active");
+}
+function asesoresActiveMobile(){
+close();
+$(".nosotros-nav").removeClass("active");
+$(".asesores-nav").addClass("active");
+$(".aliados-nav").removeClass("active");
+$(".contacto-nav").removeClass("active");
+$(".inicio-nav").removeClass("active");
 }

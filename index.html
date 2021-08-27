@@ -15,10 +15,11 @@
     <div class="menu-open">
         <img src="img/close.png" alt="" class="close-menu">
         <ul>
-            <li class="inicio-nav active" onclick="inicioActive()"><a href="#banner" class="active">Inicio</a></li>
-            <li class="nosotros-nav" onclick="nosotrosActive()"><a href="#sobre-nosotros">Sobre nosotros</a></li>
-            <li class="aliados-nav" onclick="aliadosActive()"><a href="#section-aliados">Aliados</a></li>
-            <li class="contacto-nav" onclick="contactoActive()"><a href="#section-contacto">Contacto</a></li>
+            <li class="inicio-nav active" onclick="inicioActiveMobile()"><a href="#banner" class="active">Inicio</a></li>
+            <li class="nosotros-nav" onclick="nosotrosActiveMobile()"><a href="#sobre-nosotros">Sobre nosotros</a></li>
+            <li class="aliados-nav" onclick="aliadosActiveMobile()"><a href="#section-aliados">Aliados</a></li>
+            <li class="asesores-nav" onclick="asesoresActiveMobile()"><a href="#section-asesores">Asesores</a></li>
+            <li class="contacto-nav" onclick="contactoActiveMobile()"><a href="#section-contacto">Contacto</a></li>
         </ul>
     </div>
     <div class="bg">
@@ -39,6 +40,7 @@
                 <li><a href="#banner" class="inicio-nav active" onclick="inicioActive()">Inicio</a></li>
                 <li><a href="#sobre-nosotros" class="nosotros-nav" onclick="nosotrosActive()">Sobre nosotros</a></li>
                 <li><a href="#section-aliados" class="aliados-nav" onclick="aliadosActive()">Aliados</a></li>
+                <li><a href="#section-asesores" class="asesores-nav" onclick="asesoresActive()">Asesores</a></li>
                 <li><a href="#section-contacto" class="contacto-nav" onclick="contactoActive()">Contacto</a></li>
             </ul>
         </nav>
@@ -217,8 +219,8 @@
         </div>
     </section>
 
-    <section class="section-asesores">
-        <h1>Nuestros asesores clave</h1>
+    <section class="section-asesores" id="section-asesores">
+        <h1 >Nuestros asesores clave</h1>
         <p>Contamos con asesores clave que nos permiten <br class="br-desktop">crear una sinergia de conocimiento para crecer sin límites.</p>
         <div class="asesores-desktop">
             <img src="img/advisor/asesor-1.png" class="asesor">

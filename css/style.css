@@ -471,7 +471,7 @@ canvas {
 
 .section-asesores h1{
   font-size: 25pt;
-  margin-top: 70px;
+  margin-top: 100px;
   font-weight: 500;
 }
 .section-asesores p{
@@ -570,7 +570,7 @@ canvas {
 .contacto .sin-procesar{
   background-color: #23B1CF;
   border:  solid #23B1CF 2px;
-  color: #e5e5e5;
+  color: #fff;
   cursor: pointer;
 }
 
