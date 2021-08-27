@@ -215,8 +215,9 @@ canvas {
   background: #F4FDFF;
 }
 .section-sobre-nosotros p{
-  margin-top: 20px;
+  margin-top: 10px;
   color: #18191F;
+  font-size: 12pt;
 }
 .que-hacemos-img-2{
   display: none;
@@ -224,7 +225,6 @@ canvas {
 
 .que-hacemos-texto{
   position: relative;
-  /* border: purple solid 3px; */
   width: 50vw;
   height: 80vh;
   display: flex;
@@ -239,6 +239,8 @@ canvas {
   height: 80vh;
 }
 .section-sobre-nosotros h1{
+  color: #0197B1;
+  font-size: 25pt;
   padding-bottom: 5px;
 }
 
@@ -247,7 +249,7 @@ canvas {
   width: 90vw;
 }
 .section-two-que-hacemos img{
-  width: 65vw;
+  width: 55vw;
   margin-bottom: 100px;
 }
 
@@ -278,16 +280,17 @@ canvas {
   text-align: center;
   background: #fff;
   position: relative;
-  
 }
 
 .services h1{
   padding-top: 70px;
+  font-size: 25pt;
 }
 .services p{
   color: #474A57;
   margin-top: 30px;
   margin-bottom: 30px;
+  font-size: 12pt;
 }
 .services-group{
   width: 100vw;
@@ -303,7 +306,7 @@ canvas {
 
 .box-service{
   width: 280px;
-  height: 270px;
+  height: 290px;
   background: rgba( 255, 255, 255, 0.80 );
   box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
   border-radius: 10px;  border-radius: 5%;
@@ -322,8 +325,8 @@ canvas {
   background: rgba(255, 255, 255, 0.857);
 }
 .text-service{
-  margin-left: 25px;
-  margin-right: 15px;
+  margin-left: 35px;
+  margin-right: 35px;
 }
 .box-service img{
   box-flex: 1;
@@ -358,12 +361,12 @@ canvas {
 }
 .box-service h2{
   font-size: 14pt;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 10pt;
 }
-.box-service p{
+.text-service p{
   font-size: 10pt;
-  color: #7D7987;
+  color: #474A57;
   line-height: 20pt;
   font-weight: 300;
 }
@@ -414,6 +417,7 @@ canvas {
 
 /********************************Aliados*******************************/
 .section-aliados{
+  margin-top: 170px;
   width: 100vw;
   height: 50vh;
   text-align: center;
@@ -423,9 +427,11 @@ canvas {
 }
 
 .section-aliados h1{
+  font-size: 25pt;
   padding-top: 70px;
 }
 .section-aliados p{
+  font-size: 12pt;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #474A57;
@@ -663,13 +669,13 @@ footer{
   }
   .bg-services{
     width: 100vw;
-    height: 20vh;
+    height: 130vh;
     background: #F4FDFF;
     position: absolute;
     bottom: 0;
   }
   .section-sobre-nosotros-title{
-    margin-top: 140px;
+    margin-top: 50px;
   }
   header{
     height: 6vh;
@@ -756,10 +762,10 @@ footer{
   }
   .bg-services{
     width: 100vw;
-    height: 30vh;
+    height: 60vh;
     background: #F4FDFF;
     position: absolute;
-    bottom: 0;
+    bottom: -40vh;
   }
   nav ul li{
     padding-top: 20px;
