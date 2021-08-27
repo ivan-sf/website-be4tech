@@ -508,11 +508,7 @@ canvas {
   background: #F4FDFF;
   z-index: -1;
 }
-.section-contacto h1{
-  margin-top: -20vh;
-  font-size: 25pt;
-  font-weight: 500;
-}
+
 .bg-contacto{
   width: 101vw;
   position: absolute;
@@ -666,6 +662,11 @@ footer{
 
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .section-contacto h1{
+    margin-top: -20vh;
+    font-size: 25pt;
+    font-weight: 500;
+  }
   .map{
     margin-right: 50px;  
   }
@@ -762,6 +763,11 @@ footer{
 }
 
 @media only screen and (max-width: 1366px) {
+  .section-contacto h1{
+    margin-top: -5vh;
+    font-size: 25pt;
+    font-weight: 500;
+  }
   .bg-contacto{
     height: 75vh;
   }
@@ -776,10 +782,10 @@ footer{
   }
   .bg-services{
     width: 100vw;
-    height: 60vh;
+    height: 30vh;
     background: #F4FDFF;
     position: absolute;
-    bottom: -40vh;
+    bottom: -12vh;
   }
   nav ul li{
     padding-top: 20px;
