@@ -395,6 +395,8 @@ canvas {
 }
 
 .services-swiper h1{
+  font-size: 25pt;
+  font-weight: 500;
   padding-top: 50px;
   padding-bottom: 5px;
 }
