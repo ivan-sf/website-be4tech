@@ -26,6 +26,13 @@ gsap.set('.logo-banner',{
 gsap.to('.logo-banner',{
     duration: 2, ease: "fadeIn",  delay: 3, opacity:1
 })
+
+gsap.set('.scroll-icon',{
+    opacity: 0, y: '50vh'
+})
+gsap.to('.scroll-icon',{
+    duration: 2, ease: "fadeIn",  delay: 2, opacity:1, y: 0
+})
   
   
   

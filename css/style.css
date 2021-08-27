@@ -195,7 +195,12 @@ canvas {
   align-items: center;
   justify-content: center;
 }
-
+.scroll-icon{
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  cursor: pointer;
+}
 /********************************Que hacemos*******************************/
 .section-sobre-nosotros{
   text-align: center;
@@ -488,12 +493,11 @@ canvas {
   align-items: center;
   background: #F4FDFF;
   z-index: -1;
-  /*  */
 }
 .bg-contacto{
   width: 101vw;
   position: absolute;
-  bottom: 0;
+  bottom: -10vh;
   background-image: url(../img/bg-home.png);
   background-repeat: no-repeat;
   background-size: cover;
@@ -506,7 +510,7 @@ canvas {
   color: #474A57;
 }
 .contacto{
-  width: 60vw;
+  width: 90vw;
   height: 460px;
   border-radius: 10px;
   background: rgba( 255, 255, 255, 1 );
@@ -590,21 +594,55 @@ canvas {
   margin-top: 30px;
   margin-left: 20px;
 }
+/******************************Footer****************************/
+footer{
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: baseline;
+  color: #fff;
+  font-family: 'Roboto', sans-serif;
+}
+.logo-footer{
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logo-footer img{
+  width: 20%;
+}
 .rss{
-  width: 24vw;
+  width: 40vw;
   height: 60px;
   display: flex;
   justify-content: start;
   align-items: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 .rss img{
-  margin-right: 20px;
+  margin-right: 25px;
+  width: 20px;
   cursor: pointer;
+}
+.rss .fb{
+  width: 10px;
+}
+.copyright{
+  width: 30vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 /******************************Media Queries****************************/
 @media only screen and (max-width: 1920px) {
+  .map{
+    margin-right: 50px;  
+  }
   .bg-contacto{
-    height: 50vh;
+    height: 60vh;
   }
   .section-contacto{
     height: 90vh;
@@ -697,7 +735,7 @@ canvas {
 
 @media only screen and (max-width: 1366px) {
   .bg-contacto{
-    height: 65vh;
+    height: 75vh;
   }
   .section-contacto{
     height: 120vh;
@@ -768,10 +806,50 @@ canvas {
 }
 
 @media only screen and (max-width: 800px) {
+  footer{
+    height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* flex-direction: column; */
+    flex-flow: row wrap;
+
+  }
+  .logo-footer{
+    width: 50vw;
+  }
+  .logo-footer img{
+    width:30%;
+  }
+  .rss{
+    width: 50vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -50px;
+  }
+  .rss img{
+    margin-left: 12px;
+    margin-right: 12px;
+    width: 20px;
+    cursor: pointer;
+  }
+  .rss .fb{
+    width: 10px;
+  }
+  .copyright{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: -80px;
+  }
   .br-desktop{
     display: none;
   }
   .bg-contacto{
+    bottom: -32vh;
     background-size: cover;
   }
   .section-contacto{
@@ -789,6 +867,9 @@ canvas {
   .bg{
     height: 650vh;
     }
+  .map{
+    margin-right: 0;  
+  }
   .map p{
     font-size: 10pt;
   }
