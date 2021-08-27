@@ -335,8 +335,8 @@ canvas {
   background: rgba(255, 255, 255, 0.857);
 }
 .text-service{
-  margin-left: 35px;
-  margin-right: 35px;
+  margin-left: 20px;
+  margin-right: 20px;
 }
 .box-service img{
   box-flex: 1;
@@ -375,6 +375,7 @@ canvas {
   margin-bottom: 10pt;
 }
 .text-service p{
+  width: 100%;
   font-size: 10pt;
   color: #474A57;
   line-height: 20pt;
@@ -417,6 +418,11 @@ canvas {
   margin-bottom: 20px;
   color: #18191F;
   font-size: 12pt;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+.services-swiper-p{
+  border: 1px pink solid;
   margin-left: 30px;
   margin-right: 30px;
 }
@@ -1053,10 +1059,10 @@ footer{
   }
 
   .que-hacemos-img-2 img{
-    width: 70vw;
+    width: 50vw;
   }
   .section-sobre-nosotros{
-    height: 170vh;
+    height: 130vh;
     text-align: center;
   }
 
@@ -1156,6 +1162,9 @@ footer{
 }
 
 @media only screen and (max-width: 620px) {
+  .que-hacemos-img-2 img{
+    width: 70vw;
+  }
   .box-service{
     width: 250px;
     height: 270px;
@@ -1175,7 +1184,7 @@ footer{
   }
 
   .banner h1{
-    font-size: 25pt;
+    font-size: 23pt;
   margin-left: 20px;
   margin-right: 20px;
     line-height: 28pt;
