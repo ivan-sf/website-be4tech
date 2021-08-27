@@ -241,6 +241,7 @@ canvas {
   color: #0197B1;
   font-size: 25pt;
   padding-bottom: 5px;
+  font-weight: 500;
 }
 
 .section-two-que-hacemos{
@@ -248,7 +249,6 @@ canvas {
   width: 90vw;
 }
 .section-two-que-hacemos img{
-  border: solid 3px black;
   width: 55vw;
 }
 
@@ -284,6 +284,7 @@ canvas {
 .services h1{
   padding-top: 70px;
   font-size: 25pt;
+  font-weight: 500;
 }
 .services p{
   color: #474A57;
@@ -428,6 +429,7 @@ canvas {
 .section-aliados h1{
   font-size: 25pt;
   padding-top: 70px;
+  font-weight: 500;
 }
 .section-aliados p{
   font-size: 12pt;
@@ -466,6 +468,7 @@ canvas {
 .section-asesores h1{
   font-size: 25pt;
   margin-top: 70px;
+  font-weight: 500;
 }
 .section-asesores p{
   font-size: 12pt;
@@ -504,6 +507,7 @@ canvas {
 .section-contacto h1{
   margin-top: -20vh;
   font-size: 25pt;
+  font-weight: 500;
 }
 .bg-contacto{
   width: 101vw;
@@ -1088,54 +1092,6 @@ footer{
   .services{
     display: none;
     visibility: hidden;
-  }
-  .conv-iot{
-    width: 150px;
-    left: 0;
-    
-  }
-  .conv-ia{
-    width: 200px;
-    right: 0;
-    border: solid blue 3px;
-  }
-  
-  .conv-bd{
-    width: 220px;
-    height: 100px;
-    left: 0;
-    border: solid yellow 3px;
-  }
-
-  .tooltip-conv-iot{
-    position: absolute;
-    width: 200px;
-    height: 100px;
-    left: 0;
-    margin: 0 0 0 0;
-    padding: 0 0 0 0;
-    visibility: hidden;
-    
-  }
-  
-  
-  .tooltip-conv-ia{
-    width: 100px;
-    height: 100px;
-    left: -200px;
-    border: 10px solid blue;
-    margin: 0px 0px 0px 0px;
-    padding: 0px 0px 0px 0px;
-  }
-
-  .tooltip-conv-bd{
-    margin: 0 0 0 0 auto;
-    position: absolute;
-    width: 300px;
-    height: 100px;
-    visibility: hidden;
-    right: 0;
-    border: 1px solid yellow;
   }
 
 }
