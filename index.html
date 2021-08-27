@@ -6,13 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Be4tech | Technology for life</title>
     <link rel="shortcut icon" href="img/favicon.png" type="image/x-icon">
+
     <link rel="stylesheet" href="css/swiper-bundle.min.css" />
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/particles.css">
-    <link rel="stylesheet" href="css/sphere.css">
     <link rel="stylesheet" href="css/preloader.css">
-    <link rel="stylesheet" href="css/glider.min.css">
-    <link rel="stylesheet" href="css/magic.min.css">
 </head>
 <body class="hidden-overflow body-overflow">
     <div class="menu-open">
@@ -299,115 +296,17 @@
 <script src="js/jquery-3.6.0.min.js"></script>
 <script src="js/particles.min.js"></script> 
 <script src="js/particle.js"></script>
-<script src="js/animejs.js"></script>
-<!-- SPHERE -->
-<script src="js/sphere.js"></script>
 <!-- PRELOADER -->
 <script src="js/preloader.js"></script>
 <!-- GSAP ScrollTrigger -->
 <script src="js/gsap.min.js"></script>
 <script src="js/ScrollTrigger.min.js"></script>
 <script src="js/gsap.js"></script>
-<!-- LOTTIE JS -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.7.12/lottie.min.js"></script> -->
-<!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
-<!-- <script src="https://unpkg.com/@lottiefiles/lottie-interactivity@latest/dist/lottie-interactivity.min.js"></script> -->
-<!-- <script src="js/lottie.js"></script> -->
-<!-- PARALLAX JS -->
-<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js"></script> -->
-<!-- Scroll Reveal -->
-<!-- <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script> -->
-<!-- <script src="https://unpkg.com/scroll-out/dist/scroll-out.min.js"></script> -->
 <!-- Header -->
 <script src="js/header.js"></script>
-<script src="js/menu-open.js"></script>
-<!-- Glider carousel -->
-<!-- <script src="https://cdn.jsdelivr.net/npm/glider-js@1/glider.min.js"></script> -->
-<!-- <script src="js/glider.min.js"></script> -->
-<!-- <script src="js/glider.js"></script> -->
+<script src="js/scripts.js"></script>
 <script src="js/swiper-bundle.min.js"></script>
 
 </body>
-<script type="module">
-    var swiper = new Swiper('.swiper', {
-      effect: 'coverflow',
-      grabCursor: true,
-      centeredSlides: true,
-      slidesPerView: 'auto',
-      coverflowEffect: {
-        rotate: 70,
-        stretch: 40,
-        depth: 100,
-        modifier: 1,
-        slideShadows: false,
-      },
-      pagination: {
-        el: '.swiper-pagination',
-      },
-    });
-  </script>
 
-<script>
-    function enviar_ajax(){	
-        $.ajax({
-        type: 'POST',   
-        url: 'mail.php',
-        data: $('#form1').serialize(),
-        success: function(respuesta) {
-            if(respuesta=='ok'){
-                botonEnviado();
-            }
-            else {
-                alert('Error al enviar el correo puedes usar otros metodos de contacto. Gracias');
-            }
-        }
-        });
-    }
-    function close() {
-        $('.body-overflow').css('overflow','visible');
-        gsap.to('.menu-open',{
-            duration: 3, ease: "circ", opacity:1,y:'-180vh',delay:1
-        })
-    }   
-    function botonEnviado(){
-        $(".boton-enviar").removeClass('sin-procesar');
-        $(".boton-enviar").addClass('procesado');
-        $(".boton-enviar").val("Enviado");
-        $(".boton-enviar").prop("disabled",true);
-    }
-
-    $('.icon-partner-banner').hover(function () {
-        $(this).addClass('magictime boingInUp');
-    });
-
-    function inicioActive(){
-        close();
-        $(".nosotros-nav").removeClass("active");
-        $(".aliados-nav").removeClass("active");
-        $(".contacto-nav").removeClass("active");
-        $(".inicio-nav").addClass("active");
-    }
-    function nosotrosActive(){
-        close();
-        $(".nosotros-nav").addClass("active");
-        $(".aliados-nav").removeClass("active");
-        $(".contacto-nav").removeClass("active");
-        $(".inicio-nav").removeClass("active");
-    }
-    function aliadosActive(){
-        close();
-        $(".nosotros-nav").removeClass("active");
-        $(".aliados-nav").addClass("active");
-        $(".contacto-nav").removeClass("active");
-        $(".inicio-nav").removeClass("active");
-    }
-    function contactoActive(){
-        close();
-        $(".nosotros-nav").removeClass("active");
-        $(".aliados-nav").removeClass("active");
-        $(".contacto-nav").addClass("active");
-        $(".inicio-nav").removeClass("active");
-    }
-   
-</script>
 </html>

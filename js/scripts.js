@@ -107,3 +107,81 @@ $( ".menu-header" ).click(function() {
      });
      return false;
   });
+
+  var swiper = new Swiper('.swiper', {
+    effect: 'coverflow',
+    grabCursor: true,
+    centeredSlides: true,
+    slidesPerView: 'auto',
+    coverflowEffect: {
+      rotate: 70,
+      stretch: 40,
+      depth: 100,
+      modifier: 1,
+      slideShadows: false,
+    },
+    pagination: {
+      el: '.swiper-pagination',
+    },
+  });
+
+  function enviar_ajax(){	
+    $.ajax({
+    type: 'POST',   
+    url: 'mail.php',
+    data: $('#form1').serialize(),
+    success: function(respuesta) {
+        if(respuesta=='ok'){
+            botonEnviado();
+        }
+        else {
+            alert('Error al enviar el correo puedes usar otros metodos de contacto. Gracias');
+        }
+    }
+    });
+}
+function close() {
+    $('.body-overflow').css('overflow','visible');
+    gsap.to('.menu-open',{
+        duration: 3, ease: "circ", opacity:1,y:'-180vh',delay:1
+    })
+}   
+function botonEnviado(){
+    $(".boton-enviar").removeClass('sin-procesar');
+    $(".boton-enviar").addClass('procesado');
+    $(".boton-enviar").val("Enviado");
+    $(".boton-enviar").prop("disabled",true);
+}
+
+$('.icon-partner-banner').hover(function () {
+    $(this).addClass('magictime boingInUp');
+});
+
+function inicioActive(){
+    close();
+    $(".nosotros-nav").removeClass("active");
+    $(".aliados-nav").removeClass("active");
+    $(".contacto-nav").removeClass("active");
+    $(".inicio-nav").addClass("active");
+}
+function nosotrosActive(){
+    close();
+    $(".nosotros-nav").addClass("active");
+    $(".aliados-nav").removeClass("active");
+    $(".contacto-nav").removeClass("active");
+    $(".inicio-nav").removeClass("active");
+}
+function aliadosActive(){
+    close();
+    $(".nosotros-nav").removeClass("active");
+    $(".aliados-nav").addClass("active");
+    $(".contacto-nav").removeClass("active");
+    $(".inicio-nav").removeClass("active");
+}
+function contactoActive(){
+    close();
+    $(".nosotros-nav").removeClass("active");
+    $(".aliados-nav").removeClass("active");
+    $(".contacto-nav").addClass("active");
+    $(".inicio-nav").removeClass("active");
+}
