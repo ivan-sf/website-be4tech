@@ -416,7 +416,7 @@ canvas {
 
 /********************************Aliados*******************************/
 .section-aliados{
-  margin-top: 170px;
+  margin-top: 40px;
   width: 100vw;
   height: 50vh;
   text-align: center;
@@ -675,10 +675,10 @@ footer{
   }
   .bg-services{
     width: 100vw;
-    height: 40vh;
+    height: 30vh;
     background: #F4FDFF;
     position: absolute;
-    bottom: -20vh;
+    bottom: -12vh;
   }
   .section-sobre-nosotros-title{
     margin-top: 50px;
