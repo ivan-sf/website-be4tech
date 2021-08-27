@@ -18,10 +18,10 @@
     <div class="menu-open">
         <img src="img/close.png" alt="" class="close-menu">
         <ul>
-            <li class="inicio-nav active"><a href="#banner" class="active">Inicio</a></li>
-            <li class="nosotros-nav"><a href="#section-sobre-nosotros">Sobre nosotros</a></li>
-            <li class="aliados-nav"><a href="#section-aliados">Aliados</a></li>
-            <li class="contacto-nav"><a href="#section-contacto">Contacto</a></li>
+            <li class="inicio-nav active" onclick="inicioActive()"><a href="#banner" class="active">Inicio</a></li>
+            <li class="nosotros-nav" onclick="nosotrosActive()"><a href="#section-sobre-nosotros">Sobre nosotros</a></li>
+            <li class="aliados-nav" onclick="aliadosActive()"><a href="#section-aliados">Aliados</a></li>
+            <li class="contacto-nav" onclick="contactoActive()"><a href="#section-contacto">Contacto</a></li>
         </ul>
     </div>
     <div class="bg">
@@ -363,7 +363,12 @@
         }
         });
     }
-
+    function close() {
+        $('.body-overflow').css('overflow','visible');
+        gsap.to('.menu-open',{
+            duration: 3, ease: "circ", opacity:1,y:'-180vh',delay:1
+        })
+    }   
     function botonEnviado(){
         $(".boton-enviar").removeClass('sin-procesar');
         $(".boton-enviar").addClass('procesado');
@@ -376,28 +381,33 @@
     });
 
     function inicioActive(){
+        close();
         $(".nosotros-nav").removeClass("active");
         $(".aliados-nav").removeClass("active");
         $(".contacto-nav").removeClass("active");
         $(".inicio-nav").addClass("active");
     }
     function nosotrosActive(){
+        close();
         $(".nosotros-nav").addClass("active");
         $(".aliados-nav").removeClass("active");
         $(".contacto-nav").removeClass("active");
         $(".inicio-nav").removeClass("active");
     }
     function aliadosActive(){
+        close();
         $(".nosotros-nav").removeClass("active");
         $(".aliados-nav").addClass("active");
         $(".contacto-nav").removeClass("active");
         $(".inicio-nav").removeClass("active");
     }
     function contactoActive(){
+        close();
         $(".nosotros-nav").removeClass("active");
         $(".aliados-nav").removeClass("active");
         $(".contacto-nav").addClass("active");
         $(".inicio-nav").removeClass("active");
     }
+   
 </script>
 </html>
