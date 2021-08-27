@@ -56,7 +56,7 @@ header{
   justify-content:space-between;
   position: fixed;
   left: 0;
-  z-index: 11100;
+  z-index: 111000000;
 }
 .navscroll {
   transition:background-color 500ms, color 500ms;
@@ -608,7 +608,6 @@ nav a.active:after{
   display: flex;
   justify-content: center;
   align-items: center;
-  z-index: 3050;
   overflow: hidden;
   text-align: center;
   font-family: 'Roboto', sans-serif;
@@ -628,7 +627,6 @@ nav a.active:after{
   width: 100%;
   padding-top: 50px;
   padding-bottom: 50px;
-  z-index: 3050;
 }
 
 .swiper-slide {
@@ -636,7 +634,6 @@ nav a.active:after{
   background-size: cover;
   width: 250px;
   height: 100%;
-  z-index: 3050;
 }
 
 /********************************Aliados*******************************/
