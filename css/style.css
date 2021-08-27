@@ -248,8 +248,8 @@ canvas {
   width: 90vw;
 }
 .section-two-que-hacemos img{
+  border: solid 3px black;
   width: 55vw;
-  margin-bottom: 100px;
 }
 
 .section-two-que-hacemos h1{
