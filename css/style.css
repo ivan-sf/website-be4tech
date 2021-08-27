@@ -166,7 +166,6 @@ canvas {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: 50% 50%;
-  /* border: solid orangered 3px; */
 } 
 .particles-js{
   z-index: 110;
@@ -465,9 +464,11 @@ canvas {
 }
 
 .section-asesores h1{
+  font-size: 25pt;
   margin-top: 70px;
 }
 .section-asesores p{
+  font-size: 12pt;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #474A57;
@@ -500,6 +501,10 @@ canvas {
   background: #F4FDFF;
   z-index: -1;
 }
+.section-contacto h1{
+  margin-top: -20vh;
+  font-size: 25pt;
+}
 .bg-contacto{
   width: 101vw;
   position: absolute;
@@ -511,8 +516,9 @@ canvas {
   z-index: -1;
 }
 .section-contacto p{
+  font-size: 12pt;
   margin-top: 30px;
-  margin-bottom: 30px;
+  margin-bottom: 60px;
   color: #474A57;
 }
 .contacto{
@@ -669,10 +675,10 @@ footer{
   }
   .bg-services{
     width: 100vw;
-    height: 130vh;
+    height: 40vh;
     background: #F4FDFF;
     position: absolute;
-    bottom: 0;
+    bottom: -20vh;
   }
   .section-sobre-nosotros-title{
     margin-top: 50px;
@@ -1066,7 +1072,6 @@ footer{
     background-repeat: no-repeat;
     background-size:cover;
     background-position: center center;
-    /* border: solid red 5px; */
   }
   .box-img-banner{
     margin: 0;
