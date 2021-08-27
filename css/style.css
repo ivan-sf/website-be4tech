@@ -401,6 +401,8 @@ canvas {
   padding-bottom: 5px;
 }
 .services-swiper p{
+  margin-top: 20px;
+  margin-bottom: 20px;
   color: #474A57;
 }
 
@@ -832,6 +834,9 @@ footer{
 }
 
 @media only screen and (max-width: 800px) {
+  .section-contacto h1{
+    margin-top: 0;
+  }
   footer{
     height: 30vh;
     display: flex;
