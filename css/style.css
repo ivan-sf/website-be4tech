@@ -217,6 +217,8 @@ canvas {
   margin-top: 10px;
   color: #18191F;
   font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .que-hacemos-img-2{
   display: none;
@@ -291,6 +293,8 @@ canvas {
   margin-top: 30px;
   margin-bottom: 30px;
   font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 .services-group{
   width: 100vw;
@@ -403,7 +407,10 @@ canvas {
 .services-swiper p{
   margin-top: 20px;
   margin-bottom: 20px;
-  color: #474A57;
+  color: #18191F;
+  font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 10px;
 }
 
 .swiper {
@@ -437,6 +444,8 @@ canvas {
 }
 .section-aliados p{
   font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #474A57;
@@ -476,6 +485,8 @@ canvas {
 }
 .section-asesores p{
   font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 30px;
   margin-bottom: 30px;
   color: #474A57;
@@ -521,6 +532,8 @@ canvas {
 }
 .section-contacto p{
   font-size: 12pt;
+  margin-left: 10px;
+  margin-right: 10px;
   margin-top: 30px;
   margin-bottom: 60px;
   color: #474A57;
