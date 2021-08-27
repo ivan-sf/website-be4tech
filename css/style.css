@@ -197,7 +197,7 @@ nav a.active:after{
 }
 
 /********************************Que hacemos*******************************/
-.section-two-2{
+.section-sobre-nosotros{
   text-align: center;
   width: 100vw;
   height: 60vh;
@@ -209,7 +209,7 @@ nav a.active:after{
   color: #0197B1;
   background: #F4FDFF;
 }
-.section-two-2 p{
+.section-sobre-nosotros p{
   margin-top: 20px;
   color: #18191F;
 }
@@ -233,10 +233,10 @@ nav a.active:after{
   width: 50vw;
   height: 80vh;
 }
-.section-two-2 h1{
+.section-sobre-nosotros h1{
   padding-bottom: 5px;
 }
-.section-two-2 hr{
+.section-sobre-nosotros hr{
   width: 4vw;
   margin: 20px 47.5vw 30px 47.5vw;
 }
@@ -1249,7 +1249,7 @@ nav a.active:after{
     position: absolute;
     bottom: 0;
   }
-  .section-two-2-title{
+  .section-sobre-nosotros-title{
     margin-top: 140px;
   }
 
@@ -1329,7 +1329,7 @@ nav a.active:after{
     flex-direction: column;
     background-image: url(../img/bg-home.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 101%;
     background-position: 50% 50%;
     z-index: -1;
   } 
@@ -1463,6 +1463,9 @@ nav a.active:after{
 }
 
 @media only screen and (max-width: 800px) {
+  .br-desktop{
+    display: none;
+  }
   .bg-contacto{
     background-size: cover;
   }
@@ -1636,15 +1639,15 @@ nav a.active:after{
     font-style: italic;
   }
 
-  .section-two-2{
+  .section-sobre-nosotros{
   height: 170vh;
   text-align: center;
   }
 
-  .section-two-2-title{
+  .section-sobre-nosotros-title{
     margin-top: 5vh;
   }
-  .section-two-2 hr{
+  .section-sobre-nosotros hr{
     width: 4vw;
   }
   .que-hacemos-img{
@@ -1720,7 +1723,7 @@ nav a.active:after{
     height: 100vh;
     background-image: url(../img/bg-home.png);
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size:101%;
     background-position: center center;
     /* border: solid red 5px; */
   }
