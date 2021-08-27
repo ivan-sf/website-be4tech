@@ -873,20 +873,15 @@ footer{
   }
   
 }
-@media only screen and (max-height: 800) and (max-width: 800px) {
-  .contacto{
-    flex-direction: column;
-    width: 85vw;
-    height: 10vh;
-  }
-}
+
+
 @media only screen and (max-width: 800px) {
   .contacto{
     flex-direction: column;
     width: 85vw;
-    height: 100vh;
+    height: 150vh;
   }
- 
+
   
   .section-sobre-nosotros h1{
     padding-top: 50px;
@@ -1164,6 +1159,8 @@ footer{
     display: none;
     visibility: hidden;
   }
+
+ 
 
 }
 
